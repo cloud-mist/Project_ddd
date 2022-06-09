@@ -1,0 +1,10 @@
+# https://www.gitpod.io/docs/config-gitpod-file
+
+tasks:
+  - init: go get && pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
+  - command: ./main
+
+ports:
+  - port: 8080
+    onOpen: ignore
+    visibility: public
