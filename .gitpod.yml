@@ -2,7 +2,7 @@
 
 tasks:
   - init: go get && pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu && sudo apt-get install -y uuid-runtime
-  - command: export TZ='CST-8' && go run main.go
+  - command: go run main.go
 
 ports:
   - port: 8080
