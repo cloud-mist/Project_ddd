@@ -24,6 +24,7 @@
       media="all"
     />
     <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
   </head>
   <body data-smooth-scroll-offset="77">
     <div class="nav-container">
@@ -39,7 +40,7 @@
               </div>
               <div class="col-9 col-md-10 text-right">
                 <a
-                  href="#"
+                  href="index.html"
                   class="hamburger-toggle"
                   data-toggle-class="#menu1;hidden-xs hidden-sm"
                 >
@@ -85,100 +86,13 @@
       </div>
     </div>
     <div class="main-container">
-      <section class="switchable switchable--switch hidden-sm text-justify">
-        <div class="container">
-          <div class="row justify-content-between">
-            <div class="col-md-5">
-              <img
-                alt="Image"
-                class="border--round box-shadow-wide"
-                src="/img/service/1.jpeg"
-              />
-            </div>
-            <div class="col-md-6">
-              <div class="row mx-0 switchable__text flex-column">
-                <h3><b>查询</b></h3>
-                <p class="lead">请填写下方信息，<br />稍等片刻，即可。</p>
-                <hr class="short" />
-                <form
-                  action="/service.html"
-                  method="post"
-                  enctype="multipart/form-data"
-                  class="row"
-                >
-                  <div class="col-md-6">
-                    <label>姓名:</label>
-                    <input type="text" name="name" maxlength="10" required />
-                  </div>
-
-                  <div class="col-md-6">
-                    <label>年龄:</label>
-                    <input
-                      type="number"
-                      name="age"
-                      min="1"
-                      max="150"
-                      required
-                    />
-                  </div>
-
-                  <div class="col-md-12">
-                    <label>上传图片(png/jpeg):</label>
-                    <input
-                      type="file"
-                      name="f1"
-                      id="f1"
-                      accept="image/jpeg,image/png"
-                      required
-                    />
-                  </div>
-
-                  <div class="col-md-5 col-lg-4">
-                    <button
-                      type="submit"
-                      class="btn btn--primary type--uppercase"
-                    >
-                      提交
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="switchable bg--secondary">
-        <div class="container">
-          <div class="row justify-content-between">
-            <div class="col-md-5">
-              <img
-                alt="Image"
-                class="border--round box-shadow-wide"
-                src="/img/service/2.jpg"
-              />
-            </div>
-            <div class="col-md-6">
-              <div class="row mx-0 switchable__text flex-column">
-                <h3><b>历史查询</b></h3>
-                <p class="lead">
-                  请 输入/粘贴 给您的<span><u>凭证码</u></span>
-                </p>
-                <hr class="short" />
-                <form action="/service.html" method="post" class="row">
-                  <div class="col-md-12" style="float: left">
-                    <label>凭证码:</label>
-                    <input type="text" name="uuid" maxlength="36" required />
-                  </div>
-
-                  <div class="col-md-5 col-lg-4">
-                    <input
-                      type="submit"
-                      value="提交"
-                      class="btn type--uppercase btn--primary"
-                    />
-                  </div>
-                </form>
-              </div>
+      <section class="height-100 text-center bg--secondary">
+        <div class="container pos-vertical-center">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Whoops</h4>
+              <p>{{ .Error }}，{{ .whatError }}</p>
+              <a href="service.html" target="_self">返回</a>
             </div>
           </div>
         </div>
@@ -219,6 +133,5 @@
     <script src="js/parallax.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/scripts.js"></script>
-    <script src="js/fileupload.js"></script>
   </body>
 </html>
