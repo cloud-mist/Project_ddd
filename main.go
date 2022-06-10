@@ -112,7 +112,7 @@ func main() {
 			c.SaveUploadedFile(file, dst)
 
 			// 计算 & 插入数据库
-			insertUser(agee, dst, id, userName, db)
+			insertUser(agee, dst, id, userName, db, c)
 		} else {
 			// === 历史结果查询 ===
 			uuid := c.PostForm("uuid")
@@ -156,7 +156,7 @@ func getUUID() string {
 	return string(out)
 }
 
-func insertUser(agee int, dst string, id string, userName string, db *gorm.DB) {
+func insertUser(agee int, dst string, id string, userName string, db *gorm.DB, c *gin.Context) {
 	type output struct {
 		out []byte
 		err error
@@ -176,7 +176,11 @@ func insertUser(agee int, dst string, id string, userName string, db *gorm.DB) {
 	case x := <-ch:
 		user = User{Name: userName, Age: uint8(agee), ID: id, Res: string(x.out)}
 		if x.err != nil {
-			log.Fatalf("python exec errored: %s\n", x.err)
+			c.HTML(http.StatusOK, "error.html", gin.H{
+				"Error":     "图片内容错误",
+				"whatError": "请上传皮肤图片",
+			})
+			return
 		}
 		if err := db.Create(&user).Error; err != nil {
 			log.Fatalf("插入数据失败：%v", err)
