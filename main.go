@@ -30,7 +30,7 @@ type User struct {
 var (
 	user       User
 	filesuffix string
-	mlName     = "dog.py"
+	mlPath     = "./ML/m1_lwj/predict.py"
 )
 
 func main() {
@@ -45,6 +45,7 @@ func main() {
 
 	// ------------------------静态文件----------------------------------
 	r := gin.Default()
+	//	gin.SetMode(gin.ReleaseMode)
 
 	r.Static("/static", "./statics")
 	r.Static("/css", "./statics/css")
@@ -164,8 +165,10 @@ func insertUser(agee int, dst string, id string, userName string, db *gorm.DB, c
 
 	ch := make(chan output)
 
+	dst = "../../" + dst
+
 	go func() {
-		cmd := exec.Command("python", mlName, dst)
+		cmd := exec.Command("python", mlPath, dst)
 		out, err := cmd.CombinedOutput()
 		ch <- output{out, err}
 	}()
