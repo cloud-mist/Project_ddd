@@ -5,7 +5,6 @@ import sys
 import torch
 from PIL import Image
 from torchvision import transforms
-import matplotlib.pyplot as plt
 
 from model import efficientnetv2_s as create_model
 
