@@ -33,6 +33,12 @@ var (
 	mlPath     = "./ML/m1_lwj/predict.py"
 )
 
+// 初始化时区
+func init() {
+	loc, _ := time.LoadLocation("Asia/Shanghai")
+	time.Local = loc
+}
+
 func main() {
 	// ---------------------- 连接数据库 -------------------------------
 	db, err := gorm.Open(sqlite.Open("./db/project_ddd.db"))

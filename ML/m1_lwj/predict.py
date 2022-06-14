@@ -9,6 +9,7 @@ from torchvision import transforms
 from model import efficientnetv2_s as create_model
 
 
+# ----------------------------------------------------
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 d_explain = {
     "AKIEC": "光化性角化病(AKIEC)",
@@ -19,6 +20,7 @@ d_explain = {
     "NV": "黑素细胞痣(NV)",
     "VASC": "血管病变(VASC)",
 }
+# ----------------------------------------------------
 
 
 def main():
