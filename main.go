@@ -22,15 +22,17 @@ type User struct {
 	UpdatedAt time.Time
 	DeletedAt gorm.DeletedAt `gorm:"index"`
 
-	Name string
-	Age  uint8
-	Res  string
+	Name     string
+	Gender   string
+	Age      uint8
+	Position string
+	Res      string
 }
 
 var (
 	user       User
 	filesuffix string
-	mlPath     = "./ML/m1_lwj/predict.py"
+	mlPath     = "./ML/m2_dhr/predict3.py"
 )
 
 // 初始化时区
@@ -88,9 +90,11 @@ func main() {
 	r.POST("/service.html", func(c *gin.Context) {
 		userName := c.PostForm("name")
 		if userName != "" {
-			// === 一般查询 ===
+			// === 1.查询 ===
 			age := c.PostForm("age")
 			agee, _ := strconv.Atoi(age)
+			pos := c.PostForm("d-position")
+			gender := c.PostForm("gender")
 
 			file, err := c.FormFile("f1")
 			if err != nil {
@@ -119,9 +123,9 @@ func main() {
 			c.SaveUploadedFile(file, dst)
 
 			// 计算 & 插入数据库
-			insertUser(agee, dst, id, userName, db, c)
+			insertUser(agee, dst, id, userName, pos, gender, db, c)
 		} else {
-			// === 历史结果查询 ===
+			// === 2. 历史查询 ===
 			uuid := c.PostForm("uuid")
 
 			// 根据uuid查询
@@ -139,6 +143,7 @@ func main() {
 		time := user.CreatedAt
 		uuid := user.ID
 		res := user.Res
+		pos := user.Position
 		img := "images/" + user.ID + filesuffix
 
 		c.HTML(http.StatusOK, "res.html", gin.H{
@@ -147,6 +152,7 @@ func main() {
 			"ID":    uuid,
 			"Res":   res,
 			"image": img,
+			"Pos":   pos,
 		})
 	})
 
@@ -163,7 +169,7 @@ func getUUID() string {
 	return string(out)
 }
 
-func insertUser(agee int, dst string, id string, userName string, db *gorm.DB, c *gin.Context) {
+func insertUser(agee int, dst string, id string, userName string, pos string, gender string, db *gorm.DB, c *gin.Context) {
 	type output struct {
 		out []byte
 		err error
@@ -174,7 +180,7 @@ func insertUser(agee int, dst string, id string, userName string, db *gorm.DB, c
 	dst = "../../" + dst
 
 	go func() {
-		cmd := exec.Command("python", mlPath, dst)
+		cmd := exec.Command("python", mlPath, dst, gender, strconv.Itoa(agee), pos)
 		out, err := cmd.CombinedOutput()
 		ch <- output{out, err}
 	}()
@@ -183,7 +189,7 @@ func insertUser(agee int, dst string, id string, userName string, db *gorm.DB, c
 	case <-time.After(10 * time.Second):
 		fmt.Println("timed out")
 	case x := <-ch:
-		user = User{Name: userName, Age: uint8(agee), ID: id, Res: string(x.out)}
+		user = User{Name: userName, Age: uint8(agee), ID: id, Res: string(x.out), Position: pos, Gender: gender}
 		if x.err != nil {
 			c.HTML(http.StatusOK, "error.html", gin.H{
 				"Error":     "图片内容错误",

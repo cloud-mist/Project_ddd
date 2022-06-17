@@ -91,23 +91,38 @@
                 src="{{ .image }}"
               />
             </div>
+
             <div class="col-lg-5 col-md-6">
               <div class="heading-block">
                 <h3>查询结果</h3>
               </div>
 
-              <div class="text-block"><b>{{ .Name }}</b>，你好!</div>
-
-              <div>
-                <p>计算时间：{{ .Time }}</p>
-              </div>
-
-              <div>
-                <p>凭证码&ensp;&ensp;：{{ .ID }}</p>
-              </div>
-
-              <div class="text-block">
-                <p>解读&emsp;&emsp;：您的皮肤病类别为 <b>{{ .Res }}</b></p>
+              <div class="text-block">&emsp;<b>{{ .Name }}</b>，你好！</div>
+              <div style="overflow-x: auto">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>计算时间</td>
+                      <td>{{ .Time }}</td>
+                    </tr>
+                    <tr>
+                      <td>凭证码</td>
+                      <td>{{ .ID }}</td>
+                    </tr>
+                    <tr>
+                      <td>部位</td>
+                      <td>{{ .Pos }}</td>
+                    </tr>
+                    <tr>
+                      <td>解读</td>
+                      <td>你的皮肤病类别为 <b>{{ .Res }}</b></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>

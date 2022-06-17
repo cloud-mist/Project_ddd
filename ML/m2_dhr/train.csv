@@ -1,0 +1,999 @@
+image_name,patient_id,sex,age_approx,anatom_site_general_challenge,diagnosis,benign_malignant,target,tfrecord,width,height,ffold
+ISIC_0000000,-1,female,55,anterior torso,NV,benign,0,4,1022,767,1
+ISIC_0000001,-1,female,30,anterior torso,NV,benign,0,18,1022,767,1
+ISIC_0000002,-1,female,60,upper extremity,MEL,malignant,1,0,1022,767,1
+ISIC_0000003,-1,male,30,upper extremity,NV,benign,0,24,1022,767,1
+ISIC_0000004,-1,male,80,posterior torso,MEL,malignant,1,14,1022,767,1
+ISIC_0000006,-1,female,25,posterior torso,NV,benign,0,0,1022,767,1
+ISIC_0000007,-1,female,25,posterior torso,NV,benign,0,16,1022,767,1
+ISIC_0000008,-1,female,30,anterior torso,NV,benign,0,18,1022,767,1
+ISIC_0000009,-1,female,30,anterior torso,NV,benign,0,8,1022,767,1
+ISIC_0000010,-1,female,35,posterior torso,NV,benign,0,16,1022,767,1
+ISIC_0000011,-1,female,35,lower extremity,NV,benign,0,4,1022,767,1
+ISIC_0000012,-1,male,30,posterior torso,NV,benign,0,10,1022,767,1
+ISIC_0000013,-1,female,30,posterior torso,MEL,malignant,1,20,1022,767,1
+ISIC_0000014,-1,male,35,posterior torso,NV,benign,0,20,1022,767,1
+ISIC_0000015,-1,male,35,posterior torso,NV,benign,0,20,1022,767,1
+ISIC_0000016,-1,female,55,anterior torso,NV,benign,0,22,1022,767,1
+ISIC_0000017_downsampled,-1,female,50,posterior torso,NV,benign,0,24,1024,768,1
+ISIC_0000018_downsampled,-1,male,30,posterior torso,NV,benign,0,10,1024,768,1
+ISIC_0000019_downsampled,-1,female,30,posterior torso,NV,benign,0,22,1024,768,1
+ISIC_0000020_downsampled,-1,female,25,anterior torso,NV,benign,0,16,1024,768,1
+ISIC_0000021_downsampled,-1,female,55,posterior torso,NV,benign,0,16,1024,768,1
+ISIC_0000022_downsampled,-1,female,55,lower extremity,MEL,malignant,1,14,1024,768,1
+ISIC_0000023_downsampled,-1,female,30,anterior torso,NV,benign,0,8,1024,768,1
+ISIC_0000024_downsampled,-1,male,45,posterior torso,NV,benign,0,12,1024,768,1
+ISIC_0000025_downsampled,-1,female,35,lower extremity,NV,benign,0,14,1024,768,1
+ISIC_0000026_downsampled,-1,female,30,lower extremity,MEL,malignant,1,14,1024,768,1
+ISIC_0000027_downsampled,-1,female,35,anterior torso,NV,benign,0,10,1024,768,1
+ISIC_0000028_downsampled,-1,male,60,anterior torso,NV,benign,0,4,1024,768,1
+ISIC_0000029_downsampled,-1,female,45,posterior torso,MEL,malignant,1,12,1024,768,1
+ISIC_0000030_downsampled,-1,female,55,lower extremity,MEL,malignant,1,22,1024,769,1
+ISIC_0000031_downsampled,-1,male,70,upper extremity,MEL,malignant,1,0,1024,768,1
+ISIC_0000032_downsampled,-1,female,30,posterior torso,NV,benign,0,16,1024,768,1
+ISIC_0000034_downsampled,-1,female,30,posterior torso,NV,benign,0,26,1024,768,1
+ISIC_0000035_downsampled,-1,female,25,lower extremity,MEL,malignant,1,16,1024,768,1
+ISIC_0000036_downsampled,-1,male,70,upper extremity,MEL,malignant,1,18,1024,768,1
+ISIC_0000037_downsampled,-1,male,70,posterior torso,NV,benign,0,4,1024,768,1
+ISIC_0000038_downsampled,-1,female,40,posterior torso,NV,benign,0,10,1024,768,1
+ISIC_0000039_downsampled,-1,female,60,posterior torso,NV,benign,0,20,1024,768,1
+ISIC_0000040_downsampled,-1,female,65,lower extremity,MEL,malignant,1,16,1024,768,1
+ISIC_0000041_downsampled,-1,female,40,lower extremity,NV,benign,0,4,1024,768,1
+ISIC_0000042_downsampled,-1,male,50,anterior torso,NV,benign,0,22,1024,768,1
+ISIC_0000043_downsampled,-1,male,35,lower extremity,MEL,malignant,1,20,1024,768,1
+ISIC_0000044_downsampled,-1,male,20,posterior torso,NV,benign,0,18,1024,768,1
+ISIC_0000045_downsampled,-1,male,30,lower extremity,NV,benign,0,6,1024,768,1
+ISIC_0000046_downsampled,-1,female,60,upper extremity,MEL,malignant,1,18,1024,768,1
+ISIC_0000047_downsampled,-1,male,70,lower extremity,NV,benign,0,2,1024,768,1
+ISIC_0000048_downsampled,-1,female,50,anterior torso,NV,benign,0,8,1024,768,1
+ISIC_0000049_downsampled,-1,female,80,posterior torso,MEL,malignant,1,16,1024,768,1
+ISIC_0000050_downsampled,-1,male,30,anterior torso,NV,benign,0,18,1024,768,1
+ISIC_0000051_downsampled,-1,male,55,upper extremity,NV,benign,0,10,1024,768,1
+ISIC_0000052_downsampled,-1,female,40,posterior torso,NV,benign,0,6,1024,768,1
+ISIC_0000053_downsampled,-1,female,25,posterior torso,NV,benign,0,20,1024,768,1
+ISIC_0000054_downsampled,-1,female,25,lower extremity,MEL,malignant,1,18,1024,768,1
+ISIC_0000055_downsampled,-1,female,40,posterior torso,NV,benign,0,12,1024,768,1
+ISIC_0000056_downsampled,-1,female,55,lower extremity,MEL,malignant,1,12,1024,768,1
+ISIC_0000057_downsampled,-1,female,40,lower extremity,NV,benign,0,18,1024,768,1
+ISIC_0000058_downsampled,-1,female,40,posterior torso,NV,benign,0,10,1024,768,1
+ISIC_0000059_downsampled,-1,female,30,lower extremity,NV,benign,0,24,1024,768,1
+ISIC_0000060_downsampled,-1,female,35,posterior torso,NV,benign,0,2,1024,768,1
+ISIC_0000061_downsampled,-1,female,35,lower extremity,NV,benign,0,18,1024,768,1
+ISIC_0000062_downsampled,-1,female,40,posterior torso,NV,benign,0,12,1024,768,1
+ISIC_0000063_downsampled,-1,female,45,anterior torso,NV,benign,0,12,1024,768,1
+ISIC_0000064_downsampled,-1,female,40,anterior torso,NV,benign,0,4,1024,768,1
+ISIC_0000065_downsampled,-1,female,30,posterior torso,NV,benign,0,24,1024,768,1
+ISIC_0000066,-1,female,55,posterior torso,NV,benign,0,18,962,722,1
+ISIC_0000067,-1,female,45,posterior torso,NV,benign,0,26,962,722,1
+ISIC_0000068,-1,female,35,anterior torso,NV,benign,0,22,962,722,1
+ISIC_0000069,-1,female,15,anterior torso,NV,benign,0,4,1022,767,1
+ISIC_0000071,-1,male,25,posterior torso,NV,benign,0,8,1022,767,1
+ISIC_0000072,-1,male,85,posterior torso,NV,benign,0,6,1022,767,1
+ISIC_0000073,-1,female,20,posterior torso,NV,benign,0,8,1022,767,1
+ISIC_0000074,-1,male,25,lower extremity,MEL,malignant,1,0,1022,767,1
+ISIC_0000075,-1,female,50,anterior torso,NV,benign,0,20,1022,767,1
+ISIC_0000077_downsampled,-1,male,80,upper extremity,MEL,malignant,1,2,1024,768,1
+ISIC_0000078_downsampled,-1,male,85,anterior torso,MEL,malignant,1,18,1024,768,1
+ISIC_0000079_downsampled,-1,female,55,lower extremity,NV,benign,0,8,1024,768,1
+ISIC_0000080_downsampled,-1,unknown,,,NV,benign,0,22,1024,768,1
+ISIC_0000081_downsampled,-1,unknown,,,NV,benign,0,8,1024,768,1
+ISIC_0000082_downsampled,-1,unknown,,,NV,benign,0,12,1024,768,1
+ISIC_0000085_downsampled,-1,unknown,,,NV,benign,0,10,1024,768,1
+ISIC_0000086_downsampled,-1,unknown,,,NV,benign,0,12,1024,768,1
+ISIC_0000087_downsampled,-1,unknown,,,NV,benign,0,20,1024,768,1
+ISIC_0000088_downsampled,-1,unknown,,,NV,benign,0,24,1024,768,1
+ISIC_0000089_downsampled,-1,unknown,,,NV,benign,0,4,1024,768,1
+ISIC_0000091_downsampled,-1,unknown,,,NV,benign,0,0,1024,768,1
+ISIC_0000092_downsampled,-1,unknown,,,NV,benign,0,10,1024,768,1
+ISIC_0000093_downsampled,-1,unknown,,,NV,benign,0,26,1024,768,1
+ISIC_0000094_downsampled,-1,unknown,,,NV,benign,0,2,1024,768,1
+ISIC_0000095_downsampled,-1,unknown,,,NV,benign,0,16,1024,768,1
+ISIC_0000096_downsampled,-1,unknown,,,NV,benign,0,8,1024,768,1
+ISIC_0000097_downsampled,-1,unknown,,,NV,benign,0,18,1024,768,1
+ISIC_0000098_downsampled,-1,unknown,,,NV,benign,0,16,1024,768,1
+ISIC_0000099_downsampled,-1,unknown,,,NV,benign,0,2,1024,768,1
+ISIC_0000100_downsampled,-1,unknown,,,NV,benign,0,16,1024,768,1
+ISIC_0000101_downsampled,-1,unknown,,,NV,benign,0,20,1024,768,1
+ISIC_0000102_downsampled,-1,unknown,,,NV,benign,0,4,1024,768,1
+ISIC_0000103_downsampled,-1,unknown,,,NV,benign,0,12,1024,768,1
+ISIC_0000104_downsampled,-1,unknown,,,NV,benign,0,4,1024,768,1
+ISIC_0000105_downsampled,-1,unknown,,,NV,benign,0,22,1024,768,1
+ISIC_0000107_downsampled,-1,unknown,,,NV,benign,0,0,1024,768,1
+ISIC_0000108_downsampled,-1,unknown,,,NV,benign,0,18,1024,768,1
+ISIC_0000109_downsampled,-1,unknown,,,NV,benign,0,24,1024,768,1
+ISIC_0000110_downsampled,-1,unknown,,,NV,benign,0,10,1024,768,1
+ISIC_0000111_downsampled,-1,unknown,,,NV,benign,0,10,1024,768,1
+ISIC_0000112_downsampled,-1,unknown,,,NV,benign,0,6,1024,768,1
+ISIC_0000113_downsampled,-1,unknown,,,NV,benign,0,2,1024,768,1
+ISIC_0000114_downsampled,-1,unknown,,,NV,benign,0,4,1024,768,1
+ISIC_0000115_downsampled,-1,unknown,,,NV,benign,0,6,1024,768,1
+ISIC_0000116_downsampled,-1,unknown,,,NV,benign,0,26,1024,768,1
+ISIC_0000117_downsampled,-1,unknown,,,NV,benign,0,18,1024,768,1
+ISIC_0000118_downsampled,-1,unknown,,,NV,benign,0,4,1024,768,1
+ISIC_0000119_downsampled,-1,unknown,,,NV,benign,0,8,1024,768,1
+ISIC_0000120_downsampled,-1,unknown,,,NV,benign,0,4,1024,768,1
+ISIC_0000121_downsampled,-1,unknown,,,NV,benign,0,6,1024,768,1
+ISIC_0000122_downsampled,-1,unknown,,,NV,benign,0,10,1024,768,1
+ISIC_0000123_downsampled,-1,unknown,,,NV,benign,0,22,1024,768,1
+ISIC_0000124_downsampled,-1,unknown,,,NV,benign,0,0,1024,768,2
+ISIC_0000125_downsampled,-1,unknown,,,NV,benign,0,6,1024,768,2
+ISIC_0000126_downsampled,-1,unknown,,,NV,benign,0,24,1024,768,2
+ISIC_0000127_downsampled,-1,unknown,,,NV,benign,0,22,1024,768,2
+ISIC_0000128_downsampled,-1,unknown,,,NV,benign,0,18,1024,768,2
+ISIC_0000129_downsampled,-1,unknown,,,NV,benign,0,12,1024,768,2
+ISIC_0000130_downsampled,-1,unknown,,,NV,benign,0,26,1024,768,2
+ISIC_0000131_downsampled,-1,unknown,,,NV,benign,0,2,1024,768,2
+ISIC_0000132_downsampled,-1,unknown,,,NV,benign,0,2,1024,768,2
+ISIC_0000133_downsampled,-1,unknown,,,NV,benign,0,4,1024,768,2
+ISIC_0000134_downsampled,-1,unknown,,,NV,benign,0,0,1024,768,2
+ISIC_0000135_downsampled,-1,unknown,,,NV,benign,0,10,1024,768,2
+ISIC_0000136_downsampled,-1,unknown,,,NV,benign,0,22,1024,768,2
+ISIC_0000137_downsampled,-1,unknown,,,NV,benign,0,8,1024,768,2
+ISIC_0000138_downsampled,-1,unknown,,,NV,benign,0,10,1024,768,2
+ISIC_0000139_downsampled,-1,unknown,,,MEL,malignant,1,24,1024,768,2
+ISIC_0000140_downsampled,-1,unknown,,,MEL,malignant,1,22,1024,768,2
+ISIC_0000141_downsampled,-1,unknown,,,MEL,malignant,1,16,1024,768,2
+ISIC_0000142_downsampled,-1,unknown,,,MEL,malignant,1,4,1024,768,2
+ISIC_0000143_downsampled,-1,unknown,,,MEL,malignant,1,2,1024,768,2
+ISIC_0000145_downsampled,-1,unknown,,,MEL,malignant,1,26,1024,768,2
+ISIC_0000146_downsampled,-1,unknown,,,MEL,malignant,1,16,1024,768,2
+ISIC_0000147_downsampled,-1,unknown,,,MEL,malignant,1,8,1024,768,2
+ISIC_0000148_downsampled,-1,unknown,,,MEL,malignant,1,12,1024,768,2
+ISIC_0000149_downsampled,-1,unknown,,,MEL,malignant,1,12,1024,768,2
+ISIC_0000150_downsampled,-1,unknown,,,MEL,malignant,1,22,1024,768,2
+ISIC_0000151_downsampled,-1,unknown,,,MEL,malignant,1,14,1024,768,2
+ISIC_0000152_downsampled,-1,unknown,,,MEL,malignant,1,26,1024,768,2
+ISIC_0000153_downsampled,-1,unknown,,,MEL,malignant,1,2,1024,768,2
+ISIC_0000154_downsampled,-1,unknown,,,MEL,malignant,1,22,1024,768,2
+ISIC_0000155_downsampled,-1,unknown,,,MEL,malignant,1,26,1024,768,2
+ISIC_0000156_downsampled,-1,unknown,,,MEL,malignant,1,2,1024,768,2
+ISIC_0000157,-1,male,60,upper extremity,MEL,malignant,1,22,963,629,2
+ISIC_0000159,-1,female,15,upper extremity,MEL,malignant,1,8,965,724,2
+ISIC_0000160,-1,male,55,lateral torso,MEL,malignant,1,12,722,540,2
+ISIC_0000161,-1,male,45,anterior torso,MEL,malignant,1,22,962,674,2
+ISIC_0000162,-1,male,40,anterior torso,MEL,malignant,1,4,964,640,2
+ISIC_0000163,-1,male,60,upper extremity,MEL,malignant,1,8,965,649,2
+ISIC_0000164,-1,male,60,upper extremity,MEL,malignant,1,10,959,638,2
+ISIC_0000165,-1,male,15,upper extremity,MEL,malignant,1,24,961,649,2
+ISIC_0000166,-1,female,30,upper extremity,MEL,malignant,1,4,722,542,2
+ISIC_0000167,-1,male,40,posterior torso,MEL,malignant,1,6,965,624,2
+ISIC_0000169,-1,male,70,upper extremity,MEL,malignant,1,20,722,542,2
+ISIC_0000170,-1,male,50,posterior torso,MEL,malignant,1,2,722,542,2
+ISIC_0000171,-1,male,45,posterior torso,MEL,malignant,1,8,964,720,2
+ISIC_0000172,-1,female,35,posterior torso,MEL,malignant,1,12,962,674,2
+ISIC_0000173,-1,male,65,upper extremity,MEL,malignant,1,8,722,545,2
+ISIC_0000174,-1,female,50,upper extremity,MEL,malignant,1,12,960,724,2
+ISIC_0000175,-1,female,35,upper extremity,MEL,malignant,1,12,966,638,2
+ISIC_0000176_downsampled,-1,female,40,lower extremity,MEL,malignant,1,20,857,1024,2
+ISIC_0000177_downsampled,-1,male,25,anterior torso,NV,benign,0,0,1024,673,2
+ISIC_0000179_downsampled,-1,male,35,anterior torso,NV,benign,0,18,1024,711,2
+ISIC_0000181_downsampled,-1,female,15,upper extremity,NV,benign,0,22,1024,716,2
+ISIC_0000182_downsampled,-1,male,45,anterior torso,NV,benign,0,24,1024,716,2
+ISIC_0000183_downsampled,-1,female,30,anterior torso,NV,benign,0,2,1024,669,2
+ISIC_0000184_downsampled,-1,female,25,anterior torso,NV,benign,0,8,1024,684,2
+ISIC_0000185_downsampled,-1,female,25,posterior torso,NV,benign,0,24,1024,690,2
+ISIC_0000186_downsampled,-1,male,5,upper extremity,NV,benign,0,20,1024,675,2
+ISIC_0000187,-1,female,20,anterior torso,NV,benign,0,16,722,542,2
+ISIC_0000188_downsampled,-1,male,45,posterior torso,NV,benign,0,22,1024,706,2
+ISIC_0000189_downsampled,-1,male,30,anterior torso,NV,benign,0,12,1024,716,2
+ISIC_0000190,-1,female,10,posterior torso,NV,benign,0,12,722,543,2
+ISIC_0000191_downsampled,-1,male,35,anterior torso,NV,benign,0,10,1024,716,2
+ISIC_0000192_downsampled,-1,female,55,upper extremity,NV,benign,0,16,1024,716,2
+ISIC_0000193_downsampled,-1,female,55,upper extremity,NV,benign,0,26,1024,682,2
+ISIC_0000195_downsampled,-1,female,15,anterior torso,NV,benign,0,16,1024,672,2
+ISIC_0000196_downsampled,-1,female,10,lower extremity,NV,benign,0,16,1024,710,2
+ISIC_0000197_downsampled,-1,female,10,lower extremity,NV,benign,0,6,1024,716,2
+ISIC_0000198,-1,male,65,lower extremity,NV,benign,0,4,725,542,2
+ISIC_0000199,-1,male,20,upper extremity,NV,benign,0,14,718,542,2
+ISIC_0000200,-1,female,50,lower extremity,NV,benign,0,10,962,670,2
+ISIC_0000201_downsampled,-1,male,15,lower extremity,NV,benign,0,20,1024,692,2
+ISIC_0000202_downsampled,-1,female,25,posterior torso,NV,benign,0,18,1024,716,2
+ISIC_0000203_downsampled,-1,female,45,posterior torso,NV,benign,0,16,1024,716,2
+ISIC_0000204_downsampled,-1,male,45,posterior torso,NV,benign,0,6,1024,715,2
+ISIC_0000205_downsampled,-1,male,50,posterior torso,NV,benign,0,14,1024,699,2
+ISIC_0000206_downsampled,-1,female,80,lower extremity,NV,benign,0,16,1024,716,2
+ISIC_0000207_downsampled,-1,male,30,upper extremity,NV,benign,0,4,1024,675,2
+ISIC_0000208_downsampled,-1,male,35,posterior torso,NV,benign,0,22,1024,716,2
+ISIC_0000209,-1,female,75,upper extremity,NV,benign,0,22,722,542,2
+ISIC_0000210,-1,male,65,lower extremity,NV,benign,0,18,722,542,2
+ISIC_0000211,-1,female,30,upper extremity,NV,benign,0,4,962,674,2
+ISIC_0000212,-1,female,25,posterior torso,NV,benign,0,18,722,542,2
+ISIC_0000213,-1,female,30,anterior torso,NV,benign,0,16,718,542,2
+ISIC_0000214,-1,male,65,posterior torso,NV,benign,0,26,958,642,2
+ISIC_0000215,-1,male,45,anterior torso,NV,benign,0,4,962,674,2
+ISIC_0000216,-1,male,30,anterior torso,NV,benign,0,26,949,626,2
+ISIC_0000217,-1,male,70,lower extremity,NV,benign,0,6,959,638,2
+ISIC_0000218_downsampled,-1,male,55,posterior torso,NV,benign,0,8,1024,692,2
+ISIC_0000219,-1,male,35,lower extremity,NV,benign,0,14,962,674,2
+ISIC_0000220,-1,female,30,lower extremity,NV,benign,0,8,962,674,2
+ISIC_0000221,-1,female,30,upper extremity,NV,benign,0,24,962,671,2
+ISIC_0000222,-1,female,25,lower extremity,NV,benign,0,2,966,645,2
+ISIC_0000223,-1,female,45,anterior torso,NV,benign,0,14,959,634,2
+ISIC_0000224,-1,female,20,anterior torso,NV,benign,0,26,957,640,2
+ISIC_0000225,-1,female,35,anterior torso,NV,benign,0,24,957,723,2
+ISIC_0000226,-1,male,70,posterior torso,NV,benign,0,0,964,672,2
+ISIC_0000227,-1,female,40,lower extremity,NV,benign,0,2,959,723,2
+ISIC_0000228,-1,female,30,anterior torso,NV,benign,0,16,959,639,2
+ISIC_0000229,-1,male,50,anterior torso,NV,benign,0,24,962,641,2
+ISIC_0000230,-1,female,20,anterior torso,NV,benign,0,22,962,674,2
+ISIC_0000231,-1,female,25,posterior torso,NV,benign,0,20,962,723,2
+ISIC_0000232,-1,male,75,upper extremity,NV,benign,0,2,960,645,2
+ISIC_0000233,-1,female,60,anterior torso,NV,benign,0,26,962,674,2
+ISIC_0000234,-1,male,20,anterior torso,NV,benign,0,0,962,676,2
+ISIC_0000235,-1,female,10,lower extremity,NV,benign,0,0,724,542,2
+ISIC_0000236,-1,male,30,lower extremity,NV,benign,0,16,1024,768,2
+ISIC_0000237,-1,male,70,posterior torso,NV,benign,0,22,1024,768,2
+ISIC_0000239,-1,female,5,lower extremity,NV,benign,0,6,1024,768,2
+ISIC_0000240,-1,female,35,posterior torso,NV,benign,0,18,1024,768,2
+ISIC_0000242,-1,male,60,lateral torso,NV,benign,0,10,1024,768,2
+ISIC_0000243,-1,male,65,posterior torso,NV,benign,0,10,576,768,2
+ISIC_0000244,-1,male,40,anterior torso,NV,benign,0,0,1024,768,2
+ISIC_0000245,-1,male,70,posterior torso,NV,benign,0,8,1024,768,2
+ISIC_0000246,-1,female,25,lower extremity,NV,benign,0,14,1024,768,2
+ISIC_0000247,-1,male,35,upper extremity,NV,benign,0,16,1024,768,2
+ISIC_0000249,-1,female,20,lower extremity,NV,benign,0,14,1024,768,2
+ISIC_0000250,-1,male,35,anterior torso,NV,benign,0,4,1024,768,2
+ISIC_0000251,-1,female,50,posterior torso,NV,benign,0,12,1024,768,2
+ISIC_0000252,-1,male,75,lower extremity,NV,benign,0,22,576,768,2
+ISIC_0000253,-1,female,30,posterior torso,NV,benign,0,12,576,768,2
+ISIC_0000254,-1,female,60,lower extremity,NV,benign,0,6,1024,768,2
+ISIC_0000255,-1,female,60,lower extremity,NV,benign,0,12,1024,768,2
+ISIC_0000256,-1,male,65,posterior torso,NV,benign,0,14,1024,768,2
+ISIC_0000258,-1,male,70,posterior torso,NV,benign,0,14,1024,768,2
+ISIC_0000259,-1,female,45,anterior torso,NV,benign,0,12,1024,768,2
+ISIC_0000260,-1,male,10,posterior torso,NV,benign,0,22,1024,768,2
+ISIC_0000261,-1,female,30,upper extremity,NV,benign,0,16,1024,768,2
+ISIC_0000262,-1,female,25,anterior torso,NV,benign,0,0,576,768,2
+ISIC_0000263,-1,female,25,posterior torso,NV,benign,0,12,1024,768,2
+ISIC_0000264,-1,female,25,lower extremity,NV,benign,0,18,1024,768,2
+ISIC_0000265,-1,female,25,upper extremity,NV,benign,0,10,1024,768,2
+ISIC_0000268,-1,female,45,posterior torso,NV,benign,0,20,1024,768,2
+ISIC_0000269,-1,male,30,anterior torso,NV,benign,0,22,576,768,2
+ISIC_0000271,-1,male,20,upper extremity,NV,benign,0,20,1024,768,2
+ISIC_0000274,-1,female,20,posterior torso,NV,benign,0,0,1024,768,2
+ISIC_0000275,-1,female,45,upper extremity,NV,benign,0,24,1024,768,2
+ISIC_0000276,-1,male,70,anterior torso,MEL,malignant,1,10,1024,768,2
+ISIC_0000277,-1,male,70,anterior torso,MEL,malignant,1,12,1024,768,2
+ISIC_0000278,-1,female,75,head/neck,MEL,malignant,1,22,1024,768,2
+ISIC_0000279,-1,male,80,lower extremity,MEL,malignant,1,10,1024,768,2
+ISIC_0000281,-1,male,25,posterior torso,MEL,malignant,1,26,1024,768,2
+ISIC_0000282,-1,female,65,palms/soles,MEL,malignant,1,16,1024,768,2
+ISIC_0000283,-1,male,50,upper extremity,MEL,malignant,1,6,1024,768,2
+ISIC_0000285,-1,male,60,lateral torso,MEL,malignant,1,26,1024,768,2
+ISIC_0000287,-1,male,55,palms/soles,MEL,malignant,1,4,1024,768,2
+ISIC_0000288,-1,female,70,upper extremity,MEL,malignant,1,8,1024,768,2
+ISIC_0000289,-1,male,75,head/neck,MEL,malignant,1,10,1024,768,2
+ISIC_0000290,-1,female,65,palms/soles,MEL,malignant,1,0,1024,768,2
+ISIC_0000292,-1,female,85,head/neck,MEL,malignant,1,2,1024,768,2
+ISIC_0000293,-1,male,70,lower extremity,MEL,malignant,1,20,1024,768,2
+ISIC_0000294,-1,male,80,posterior torso,MEL,malignant,1,0,1024,768,2
+ISIC_0000295,-1,female,85,upper extremity,MEL,malignant,1,18,767,576,2
+ISIC_0000297,-1,female,35,anterior torso,MEL,malignant,1,4,767,576,2
+ISIC_0000298,-1,male,50,lower extremity,MEL,malignant,1,14,767,576,2
+ISIC_0000299,-1,male,75,head/neck,MEL,malignant,1,20,767,576,2
+ISIC_0000300,-1,female,60,lower extremity,MEL,malignant,1,12,767,576,2
+ISIC_0000301,-1,male,60,posterior torso,MEL,malignant,1,10,767,576,2
+ISIC_0000302,-1,female,65,posterior torso,MEL,malignant,1,14,767,576,2
+ISIC_0000303,-1,male,80,upper extremity,MEL,malignant,1,22,767,576,2
+ISIC_0000306,-1,male,50,upper extremity,MEL,malignant,1,0,767,576,2
+ISIC_0000307,-1,female,65,lower extremity,MEL,malignant,1,10,767,576,2
+ISIC_0000310,-1,female,85,lower extremity,MEL,malignant,1,0,767,576,2
+ISIC_0000311,-1,female,60,lower extremity,MEL,malignant,1,14,767,576,2
+ISIC_0000313,-1,male,60,anterior torso,MEL,malignant,1,4,767,576,2
+ISIC_0000314,-1,female,35,lower extremity,MEL,malignant,1,8,767,576,2
+ISIC_0000315,-1,female,30,anterior torso,NV,benign,0,22,767,576,2
+ISIC_0000316,-1,female,20,anterior torso,NV,benign,0,6,767,576,2
+ISIC_0000317,-1,female,60,posterior torso,NV,benign,0,4,767,576,2
+ISIC_0000319,-1,male,50,posterior torso,NV,benign,0,24,767,576,2
+ISIC_0000320,-1,male,55,lower extremity,NV,benign,0,26,767,576,2
+ISIC_0000321,-1,male,30,posterior torso,NV,benign,0,16,767,576,2
+ISIC_0000322,-1,male,35,posterior torso,NV,benign,0,20,767,576,2
+ISIC_0000323,-1,male,40,head/neck,NV,benign,0,26,767,576,2
+ISIC_0000324,-1,male,25,posterior torso,NV,benign,0,26,767,576,2
+ISIC_0000325,-1,male,50,anterior torso,NV,benign,0,10,767,576,2
+ISIC_0000326,-1,female,20,lower extremity,NV,benign,0,10,767,576,2
+ISIC_0000327,-1,male,60,lower extremity,NV,benign,0,24,767,576,2
+ISIC_0000328,-1,female,30,posterior torso,NV,benign,0,24,767,576,2
+ISIC_0000329,-1,female,30,lower extremity,NV,benign,0,24,767,576,2
+ISIC_0000330,-1,female,30,posterior torso,NV,benign,0,24,767,576,2
+ISIC_0000331,-1,male,15,posterior torso,NV,benign,0,24,767,576,2
+ISIC_0000332,-1,male,35,lower extremity,NV,benign,0,18,767,576,2
+ISIC_0000333,-1,male,25,anterior torso,NV,benign,0,6,767,576,2
+ISIC_0000336,-1,female,30,lower extremity,NV,benign,0,26,767,576,2
+ISIC_0000337,-1,male,50,lower extremity,NV,benign,0,22,767,576,2
+ISIC_0000338,-1,male,50,lower extremity,NV,benign,0,12,767,576,2
+ISIC_0000339,-1,female,25,upper extremity,NV,benign,0,10,767,576,2
+ISIC_0000340,-1,female,,lower extremity,NV,benign,0,4,767,576,2
+ISIC_0000341,-1,male,,anterior torso,NV,benign,0,28,767,576,2
+ISIC_0000342,-1,male,,posterior torso,NV,benign,0,2,767,576,2
+ISIC_0000343,-1,male,,head/neck,NV,benign,0,28,767,576,2
+ISIC_0000344,-1,male,50,lower extremity,NV,benign,0,28,767,576,2
+ISIC_0000345,-1,male,35,posterior torso,NV,benign,0,2,767,576,2
+ISIC_0000346,-1,female,,anterior torso,NV,benign,0,0,767,576,2
+ISIC_0000347,-1,female,,posterior torso,NV,benign,0,12,767,576,2
+ISIC_0000348,-1,female,,lower extremity,NV,benign,0,4,767,576,2
+ISIC_0000349,-1,female,,anterior torso,NV,benign,0,16,767,576,2
+ISIC_0000350,-1,female,,posterior torso,NV,benign,0,4,767,576,2
+ISIC_0000351,-1,male,,anterior torso,NV,benign,0,4,767,576,2
+ISIC_0000352,-1,male,,posterior torso,NV,benign,0,26,767,576,2
+ISIC_0000353,-1,female,,,NV,benign,0,18,767,576,2
+ISIC_0000354,-1,female,35,anterior torso,NV,benign,0,2,767,576,2
+ISIC_0000355,-1,male,,anterior torso,NV,benign,0,18,767,576,2
+ISIC_0000357,-1,female,40,lower extremity,NV,benign,0,20,767,576,2
+ISIC_0000358,-1,male,30,,NV,benign,0,0,767,576,2
+ISIC_0000359,-1,male,50,posterior torso,NV,benign,0,8,767,576,2
+ISIC_0000360,-1,female,30,posterior torso,NV,benign,0,12,767,576,2
+ISIC_0000361,-1,male,75,posterior torso,NV,benign,0,20,767,576,2
+ISIC_0000363,-1,female,25,posterior torso,NV,benign,0,10,767,576,2
+ISIC_0000364,-1,male,30,posterior torso,NV,benign,0,16,767,576,2
+ISIC_0000365,-1,female,30,posterior torso,NV,benign,0,4,767,576,2
+ISIC_0000366,-1,female,40,lower extremity,NV,benign,0,4,767,576,2
+ISIC_0000367,-1,male,15,posterior torso,NV,benign,0,10,767,576,2
+ISIC_0000368,-1,female,30,posterior torso,NV,benign,0,24,767,576,2
+ISIC_0000369,-1,male,30,anterior torso,NV,benign,0,24,767,576,2
+ISIC_0000370,-1,male,65,lower extremity,NV,benign,0,14,767,576,2
+ISIC_0000371,-1,female,30,anterior torso,NV,benign,0,8,767,576,2
+ISIC_0000372,-1,female,40,posterior torso,NV,benign,0,14,767,576,2
+ISIC_0000374,-1,male,15,lower extremity,NV,benign,0,18,767,576,2
+ISIC_0000376_downsampled,-1,unknown,,,NV,benign,0,8,1024,782,2
+ISIC_0000377_downsampled,-1,unknown,,,NV,benign,0,4,1024,768,2
+ISIC_0000378_downsampled,-1,unknown,,,NV,benign,0,12,1024,858,2
+ISIC_0000379_downsampled,-1,unknown,,,NV,benign,0,20,1024,768,2
+ISIC_0000380_downsampled,-1,unknown,,,NV,benign,0,10,1024,930,2
+ISIC_0000381_downsampled,-1,unknown,,,NV,benign,0,18,1024,946,2
+ISIC_0000382_downsampled,-1,unknown,,,NV,benign,0,0,1024,914,2
+ISIC_0000383_downsampled,-1,unknown,,,NV,benign,0,28,1024,961,2
+ISIC_0000384_downsampled,-1,unknown,,,NV,benign,0,24,1024,830,2
+ISIC_0000385_downsampled,-1,unknown,,,NV,benign,0,0,1024,768,2
+ISIC_0000386_downsampled,-1,unknown,,,NV,benign,0,16,1024,768,2
+ISIC_0000387_downsampled,-1,unknown,,,NV,benign,0,12,1024,768,2
+ISIC_0000388_downsampled,-1,unknown,,,NV,benign,0,26,1024,768,2
+ISIC_0000390_downsampled,-1,unknown,,,MEL,malignant,1,6,1024,768,2
+ISIC_0000391_downsampled,-1,unknown,,,NV,benign,0,26,1024,768,2
+ISIC_0000392_downsampled,-1,unknown,,,NV,benign,0,4,1024,768,2
+ISIC_0000393_downsampled,-1,unknown,,,MEL,malignant,1,16,1024,768,2
+ISIC_0000395_downsampled,-1,unknown,,,MEL,malignant,1,0,1024,768,2
+ISIC_0000396_downsampled,-1,unknown,,,NV,benign,0,12,1024,798,2
+ISIC_0000397_downsampled,-1,unknown,,,NV,benign,0,4,1024,768,2
+ISIC_0000403_downsampled,-1,unknown,,,NV,benign,0,24,1024,768,2
+ISIC_0000407_downsampled,-1,unknown,,,NV,benign,0,8,1024,768,2
+ISIC_0000408_downsampled,-1,unknown,,,NV,benign,0,24,1024,768,2
+ISIC_0000409_downsampled,-1,unknown,,,NV,benign,0,0,1024,751,2
+ISIC_0000410_downsampled,-1,unknown,,,MEL,malignant,1,8,1024,878,2
+ISIC_0000412_downsampled,-1,unknown,,,MEL,malignant,1,24,1024,861,2
+ISIC_0000413_downsampled,-1,unknown,,,MEL,malignant,1,0,1024,768,2
+ISIC_0000415_downsampled,-1,unknown,,,MEL,malignant,1,26,1024,768,2
+ISIC_0000416_downsampled,-1,unknown,,,NV,benign,0,28,1024,768,2
+ISIC_0000418_downsampled,-1,unknown,,,NV,benign,0,10,1024,768,2
+ISIC_0000419_downsampled,-1,unknown,,,NV,benign,0,6,1024,768,2
+ISIC_0000420_downsampled,-1,unknown,,,MEL,malignant,1,28,1024,768,2
+ISIC_0000421_downsampled,-1,unknown,,,NV,benign,0,18,1024,768,2
+ISIC_0000423_downsampled,-1,unknown,,,NV,benign,0,18,1024,768,2
+ISIC_0000425_downsampled,-1,unknown,,,NV,benign,0,26,1024,768,2
+ISIC_0000426_downsampled,-1,unknown,,,NV,benign,0,26,1024,768,2
+ISIC_0000427_downsampled,-1,unknown,,,NV,benign,0,12,1024,768,2
+ISIC_0000431_downsampled,-1,unknown,,,NV,benign,0,12,1024,768,2
+ISIC_0000433_downsampled,-1,unknown,,,NV,benign,0,18,1024,768,2
+ISIC_0000434_downsampled,-1,unknown,,,MEL,malignant,1,2,1024,768,2
+ISIC_0000436_downsampled,-1,unknown,,,NV,benign,0,10,1024,768,2
+ISIC_0000439_downsampled,-1,unknown,,,NV,benign,0,16,1024,768,2
+ISIC_0000442_downsampled,-1,unknown,,,NV,benign,0,8,1024,768,2
+ISIC_0000443_downsampled,-1,unknown,,,NV,benign,0,8,1024,768,2
+ISIC_0000444_downsampled,-1,unknown,,,MEL,malignant,1,10,1024,768,2
+ISIC_0000445_downsampled,-1,unknown,,,MEL,malignant,1,26,1024,768,2
+ISIC_0000447_downsampled,-1,unknown,,,NV,benign,0,18,1024,995,2
+ISIC_0000448_downsampled,-1,unknown,,,NV,benign,0,22,1024,768,2
+ISIC_0000449_downsampled,-1,unknown,,,NV,benign,0,6,1024,768,2
+ISIC_0000451_downsampled,-1,unknown,,,NV,benign,0,0,1024,768,2
+ISIC_0000452_downsampled,-1,unknown,,,NV,benign,0,0,1024,768,2
+ISIC_0000453_downsampled,-1,unknown,,,NV,benign,0,16,1024,768,2
+ISIC_0000455_downsampled,-1,unknown,,,NV,benign,0,18,1024,818,2
+ISIC_0000456_downsampled,-1,unknown,,,NV,benign,0,18,1024,768,2
+ISIC_0000457_downsampled,-1,unknown,,,NV,benign,0,20,1024,750,2
+ISIC_0000458,-1,unknown,,anterior torso,NV,benign,0,4,919,802,2
+ISIC_0000460,-1,unknown,,posterior torso,NV,benign,0,14,919,802,2
+ISIC_0000461,-1,unknown,,posterior torso,NV,benign,0,18,919,802,2
+ISIC_0000463_downsampled,-1,unknown,,,MEL,malignant,1,6,1024,680,2
+ISIC_0000465,-1,unknown,,anterior torso,NV,benign,0,26,919,802,2
+ISIC_0000466,-1,unknown,,posterior torso,MEL,malignant,1,8,919,802,2
+ISIC_0000467,-1,unknown,,posterior torso,NV,benign,0,28,919,802,2
+ISIC_0000468,-1,unknown,,posterior torso,NV,benign,0,18,919,802,2
+ISIC_0000469,-1,unknown,,upper extremity,MEL,malignant,1,16,919,802,2
+ISIC_0000470,-1,unknown,,lower extremity,NV,benign,0,4,919,802,2
+ISIC_0000471,-1,unknown,,lower extremity,NV,benign,0,22,919,802,2
+ISIC_0000473_downsampled,-1,unknown,,lower extremity,NV,benign,0,24,1024,680,2
+ISIC_0000474,-1,unknown,,anterior torso,NV,benign,0,2,919,802,2
+ISIC_0000475,-1,unknown,,anterior torso,NV,benign,0,26,919,802,2
+ISIC_0000476,-1,unknown,,posterior torso,NV,benign,0,8,919,802,2
+ISIC_0000477,-1,unknown,,posterior torso,NV,benign,0,28,919,802,2
+ISIC_0000478,-1,unknown,,lateral torso,NV,benign,0,20,919,802,2
+ISIC_0000479,-1,unknown,,posterior torso,NV,benign,0,0,919,802,2
+ISIC_0000480,-1,unknown,,posterior torso,NV,benign,0,22,919,802,2
+ISIC_0000481,-1,unknown,,anterior torso,NV,benign,0,20,919,802,2
+ISIC_0000482,-1,unknown,,lower extremity,MEL,malignant,1,26,919,802,2
+ISIC_0000483,-1,unknown,,lower extremity,NV,benign,0,28,919,802,2
+ISIC_0000484,-1,unknown,,upper extremity,MEL,malignant,1,2,919,802,2
+ISIC_0000485,-1,unknown,,posterior torso,NV,benign,0,14,919,802,2
+ISIC_0000486,-1,unknown,,lower extremity,NV,benign,0,0,919,802,2
+ISIC_0000487,-1,unknown,,upper extremity,MEL,malignant,1,4,919,802,2
+ISIC_0000488,-1,unknown,,anterior torso,NV,benign,0,18,919,802,2
+ISIC_0000489,-1,unknown,,upper extremity,NV,benign,0,8,919,802,2
+ISIC_0000490,-1,unknown,,posterior torso,NV,benign,0,10,919,802,2
+ISIC_0000491,-1,unknown,,lower extremity,NV,benign,0,20,919,802,2
+ISIC_0000492,-1,unknown,,posterior torso,NV,benign,0,14,919,802,2
+ISIC_0000493,-1,unknown,,posterior torso,NV,benign,0,2,919,802,2
+ISIC_0000494,-1,unknown,,anterior torso,NV,benign,0,22,919,802,2
+ISIC_0000495,-1,unknown,,lower extremity,NV,benign,0,8,919,802,2
+ISIC_0000496,-1,unknown,,posterior torso,NV,benign,0,14,1019,717,2
+ISIC_0000498,-1,unknown,,anterior torso,NV,benign,0,26,919,802,2
+ISIC_0000499,-1,unknown,,lateral torso,NV,benign,0,4,919,802,2
+ISIC_0000500,-1,unknown,,posterior torso,NV,benign,0,6,919,802,2
+ISIC_0000501,-1,unknown,,anterior torso,NV,benign,0,28,919,802,2
+ISIC_0000503,-1,unknown,,anterior torso,NV,benign,0,14,919,802,2
+ISIC_0000504_downsampled,-1,unknown,,posterior torso,NV,benign,0,0,1024,685,2
+ISIC_0000505,-1,unknown,,upper extremity,NV,benign,0,8,919,802,2
+ISIC_0000506,-1,unknown,,lower extremity,NV,benign,0,6,919,802,2
+ISIC_0000507,-1,unknown,,posterior torso,NV,benign,0,24,1019,717,2
+ISIC_0000508,-1,unknown,,upper extremity,NV,benign,0,4,1019,717,2
+ISIC_0000509,-1,unknown,,posterior torso,NV,benign,0,8,919,802,2
+ISIC_0000510,-1,unknown,,posterior torso,NV,benign,0,18,919,802,2
+ISIC_0000511,-1,unknown,,anterior torso,MEL,malignant,1,26,919,802,2
+ISIC_0000513,-1,unknown,,upper extremity,MEL,malignant,1,6,919,802,2
+ISIC_0000514,-1,unknown,,anterior torso,NV,benign,0,14,919,802,2
+ISIC_0000515,-1,unknown,,anterior torso,NV,benign,0,12,919,802,2
+ISIC_0000516,-1,unknown,,posterior torso,MEL,malignant,1,6,919,802,2
+ISIC_0000517,-1,unknown,,posterior torso,MEL,malignant,1,0,919,802,2
+ISIC_0000518,-1,unknown,,upper extremity,MEL,malignant,1,8,919,802,2
+ISIC_0000519_downsampled,-1,unknown,,posterior torso,MEL,malignant,1,16,1024,768,2
+ISIC_0000520_downsampled,-1,unknown,,upper extremity,MEL,malignant,1,4,1024,768,2
+ISIC_0000521_downsampled,-1,unknown,,anterior torso,MEL,malignant,1,24,1024,768,2
+ISIC_0000522,-1,unknown,,lower extremity,MEL,malignant,1,26,919,802,2
+ISIC_0000523,-1,unknown,,posterior torso,NV,benign,0,20,919,802,2
+ISIC_0000524,-1,unknown,,anterior torso,NV,benign,0,6,919,802,2
+ISIC_0000525,-1,unknown,,lower extremity,NV,benign,0,26,1007,711,2
+ISIC_0000527,-1,unknown,,,NV,benign,0,12,1011,713,2
+ISIC_0000528,-1,unknown,,posterior torso,NV,benign,0,28,1008,711,2
+ISIC_0000529_downsampled,-1,unknown,,lateral torso,NV,benign,0,10,1024,750,2
+ISIC_0000530,-1,unknown,,upper extremity,NV,benign,0,26,919,802,2
+ISIC_0000531,-1,unknown,,upper extremity,MEL,malignant,1,14,919,802,2
+ISIC_0000532,-1,unknown,,posterior torso,NV,benign,0,22,919,802,2
+ISIC_0000533,-1,unknown,,,MEL,malignant,1,16,1016,682,2
+ISIC_0000534,-1,unknown,,,NV,benign,0,22,824,719,2
+ISIC_0000535,-1,unknown,,,NV,benign,0,18,824,719,2
+ISIC_0000536,-1,unknown,,,NV,benign,0,16,796,682,2
+ISIC_0000537,-1,unknown,,,NV,benign,0,22,824,719,2
+ISIC_0000538,-1,unknown,,,NV,benign,0,8,824,719,2
+ISIC_0000539,-1,unknown,,,NV,benign,0,2,824,719,2
+ISIC_0000540,-1,unknown,,,NV,benign,0,6,824,719,2
+ISIC_0000541,-1,unknown,,,NV,benign,0,22,824,719,2
+ISIC_0000542,-1,unknown,,,NV,benign,0,0,824,719,2
+ISIC_0000543,-1,unknown,,,NV,benign,0,6,853,680,2
+ISIC_0000544,-1,unknown,,,NV,benign,0,28,824,719,2
+ISIC_0000545,-1,unknown,,,NV,benign,0,22,824,719,2
+ISIC_0000546,-1,unknown,,,NV,benign,0,20,824,719,2
+ISIC_0000547,-1,unknown,,,MEL,malignant,1,14,824,719,2
+ISIC_0000548,-1,unknown,,,MEL,malignant,1,8,771,750,2
+ISIC_0000549,-1,unknown,,,MEL,malignant,1,6,824,719,2
+ISIC_0000550,-1,unknown,,posterior torso,MEL,malignant,1,20,824,719,2
+ISIC_0000551,-1,unknown,,posterior torso,MEL,malignant,1,22,838,614,2
+ISIC_0000552,-1,unknown,,,MEL,malignant,1,4,679,566,2
+ISIC_0000554,-1,unknown,,,MEL,malignant,1,20,824,719,2
+ISIC_0000555,-1,unknown,,,MEL,malignant,1,26,833,680,2
+ISIC_0000556,-1,unknown,,,NV,benign,0,20,824,719,2
+ISIC_0000882_downsampled,-1,male,15,,NV,benign,0,4,1024,682,2
+ISIC_0000900_downsampled,-1,female,15,,NV,benign,0,8,1024,682,2
+ISIC_0000999_downsampled,-1,female,15,,NV,benign,0,28,1024,682,2
+ISIC_0001100_downsampled,-1,male,85,upper extremity,MEL,malignant,1,18,1024,768,2
+ISIC_0001102_downsampled,-1,female,50,lower extremity,MEL,malignant,1,22,1024,768,2
+ISIC_0001103_downsampled,-1,male,80,upper extremity,MEL,malignant,1,8,1024,685,2
+ISIC_0001105_downsampled,-1,male,35,anterior torso,MEL,malignant,1,22,1024,768,2
+ISIC_0001106_downsampled,-1,male,70,lower extremity,MEL,malignant,1,22,1024,685,2
+ISIC_0001118_downsampled,-1,male,70,lower extremity,MEL,malignant,1,4,1024,685,2
+ISIC_0001119_downsampled,-1,male,55,posterior torso,MEL,malignant,1,20,1024,768,2
+ISIC_0001126_downsampled,-1,male,65,anterior torso,MEL,malignant,1,0,1024,768,2
+ISIC_0001128_downsampled,-1,male,40,lateral torso,MEL,malignant,1,14,1024,768,2
+ISIC_0001131_downsampled,-1,male,45,upper extremity,MEL,malignant,1,10,1024,768,2
+ISIC_0001133_downsampled,-1,male,65,upper extremity,MEL,malignant,1,24,1024,768,2
+ISIC_0001134_downsampled,-1,male,65,lateral torso,MEL,malignant,1,24,1024,768,2
+ISIC_0001140_downsampled,-1,female,50,lower extremity,MEL,malignant,1,17,1024,1024,2
+ISIC_0001142_downsampled,-1,female,70,lower extremity,MEL,malignant,1,20,1024,768,2
+ISIC_0001148_downsampled,-1,male,85,posterior torso,MEL,malignant,1,14,1024,768,2
+ISIC_0001152_downsampled,-1,male,25,head/neck,MEL,malignant,1,0,1024,685,2
+ISIC_0001163_downsampled,-1,male,15,,NV,benign,0,16,1024,682,2
+ISIC_0001181_downsampled,-1,male,15,,NV,benign,0,2,1024,680,2
+ISIC_0001184_downsampled,-1,male,15,,NV,benign,0,10,1024,680,2
+ISIC_0001185_downsampled,-1,male,15,,NV,benign,0,24,1024,680,2
+ISIC_0001186_downsampled,-1,male,15,,NV,benign,0,14,1024,680,2
+ISIC_0001187_downsampled,-1,male,15,,NV,benign,0,6,1024,680,2
+ISIC_0001188_downsampled,-1,male,15,,NV,benign,0,4,1024,680,2
+ISIC_0001190_downsampled,-1,male,15,,NV,benign,0,24,1024,680,2
+ISIC_0001191_downsampled,-1,male,15,,NV,benign,0,28,1024,680,2
+ISIC_0001204_downsampled,-1,female,15,,NV,benign,0,24,1024,682,2
+ISIC_0001212_downsampled,-1,female,15,,NV,benign,0,2,1024,680,2
+ISIC_0001213_downsampled,-1,female,15,,NV,benign,0,16,1024,680,2
+ISIC_0001216_downsampled,-1,female,15,,NV,benign,0,26,1024,680,2
+ISIC_0001242_downsampled,-1,male,15,,NV,benign,0,8,1024,680,2
+ISIC_0001247_downsampled,-1,male,15,,NV,benign,0,26,1024,682,2
+ISIC_0001254_downsampled,-1,male,15,,NV,benign,0,16,1024,682,2
+ISIC_0001262_downsampled,-1,male,10,,NV,benign,0,12,1024,682,2
+ISIC_0001267_downsampled,-1,male,15,,NV,benign,0,4,1024,682,2
+ISIC_0001275_downsampled,-1,male,15,,NV,benign,0,26,1024,682,2
+ISIC_0001286_downsampled,-1,male,15,,NV,benign,0,4,1024,682,2
+ISIC_0001292_downsampled,-1,male,10,,NV,benign,0,0,1024,682,2
+ISIC_0001296_downsampled,-1,male,15,,NV,benign,0,24,1024,682,2
+ISIC_0001299_downsampled,-1,male,15,,NV,benign,0,6,1024,682,2
+ISIC_0001306_downsampled,-1,male,15,,NV,benign,0,24,1024,682,2
+ISIC_0001367_downsampled,-1,male,15,,NV,benign,0,0,1024,682,2
+ISIC_0001372_downsampled,-1,male,15,,NV,benign,0,2,1024,682,2
+ISIC_0001374_downsampled,-1,male,15,,NV,benign,0,0,1024,682,2
+ISIC_0001385_downsampled,-1,male,15,,NV,benign,0,16,1024,682,2
+ISIC_0001423_downsampled,-1,female,15,,NV,benign,0,4,1024,682,2
+ISIC_0001427_downsampled,-1,female,15,,NV,benign,0,18,1024,682,2
+ISIC_0001442_downsampled,-1,female,15,,NV,benign,0,24,1024,682,2
+ISIC_0001449_downsampled,-1,female,15,,NV,benign,0,18,1024,682,2
+ISIC_0001769_downsampled,-1,female,15,,NV,benign,0,10,1024,682,2
+ISIC_0001852_downsampled,-1,female,10,,NV,benign,0,8,1024,682,2
+ISIC_0001871_downsampled,-1,male,15,,NV,benign,0,12,1024,682,2
+ISIC_0001960_downsampled,-1,male,15,,NV,benign,0,10,1024,682,2
+ISIC_0002093_downsampled,-1,male,10,,NV,benign,0,0,1024,682,2
+ISIC_0002107_downsampled,-1,female,10,,NV,benign,0,10,1024,682,2
+ISIC_0002206_downsampled,-1,male,15,,NV,benign,0,0,1024,682,2
+ISIC_0002246_downsampled,-1,male,10,,NV,benign,0,2,1024,682,2
+ISIC_0002251_downsampled,-1,male,15,,NV,benign,0,12,1024,682,2
+ISIC_0002287_downsampled,-1,male,15,,NV,benign,0,4,1024,682,2
+ISIC_0002353_downsampled,-1,male,15,,NV,benign,0,28,1024,682,2
+ISIC_0002374_downsampled,-1,male,15,,NV,benign,0,22,1024,682,2
+ISIC_0002438_downsampled,-1,male,15,,NV,benign,0,12,1024,682,2
+ISIC_0002439_downsampled,-1,male,15,,NV,benign,0,24,1024,682,2
+ISIC_0002453_downsampled,-1,female,15,,NV,benign,0,18,1024,682,2
+ISIC_0002459_downsampled,-1,female,15,,NV,benign,0,28,1024,682,2
+ISIC_0002469_downsampled,-1,female,15,,NV,benign,0,6,1024,682,2
+ISIC_0002476_downsampled,-1,female,10,,NV,benign,0,24,1024,682,2
+ISIC_0002488_downsampled,-1,female,10,,NV,benign,0,0,1024,682,2
+ISIC_0002489_downsampled,-1,female,10,,NV,benign,0,0,1024,682,2
+ISIC_0002616_downsampled,-1,female,15,,NV,benign,0,0,1024,680,2
+ISIC_0002647_downsampled,-1,female,15,,NV,benign,0,2,1024,680,2
+ISIC_0002673_downsampled,-1,male,15,,NV,benign,0,2,1024,682,2
+ISIC_0002780_downsampled,-1,female,15,,NV,benign,0,14,1024,680,2
+ISIC_0002806_downsampled,-1,male,15,,NV,benign,0,26,1024,680,2
+ISIC_0002829_downsampled,-1,male,15,,NV,benign,0,28,1024,682,2
+ISIC_0002836_downsampled,-1,male,15,,NV,benign,0,10,1024,680,2
+ISIC_0002871_downsampled,-1,male,15,,NV,benign,0,26,1024,680,2
+ISIC_0002879_downsampled,-1,male,15,,NV,benign,0,6,1024,682,2
+ISIC_0002885_downsampled,-1,male,15,,NV,benign,0,16,1024,680,2
+ISIC_0002948_downsampled,-1,female,15,,NV,benign,0,28,1024,682,2
+ISIC_0002975_downsampled,-1,female,15,,NV,benign,0,16,1024,680,2
+ISIC_0002976_downsampled,-1,female,15,,NV,benign,0,24,1024,680,2
+ISIC_0003005_downsampled,-1,female,15,,NV,benign,0,18,1024,682,2
+ISIC_0003051_downsampled,-1,male,15,,NV,benign,0,2,1024,680,2
+ISIC_0003056_downsampled,-1,male,15,,NV,benign,0,0,1024,680,2
+ISIC_0003174_downsampled,-1,male,15,,NV,benign,0,12,1024,682,2
+ISIC_0003308_downsampled,-1,male,10,,NV,benign,0,8,1024,682,2
+ISIC_0003346_downsampled,-1,male,15,,NV,benign,0,14,1024,680,2
+ISIC_0003462_downsampled,-1,female,15,,NV,benign,0,18,1024,682,2
+ISIC_0003539_downsampled,-1,female,15,,NV,benign,0,22,1024,682,2
+ISIC_0003559_downsampled,-1,female,15,,NV,benign,0,26,1024,680,2
+ISIC_0003582_downsampled,-1,female,15,,NV,benign,0,10,1024,682,2
+ISIC_0003657_downsampled,-1,male,10,,NV,benign,0,26,1024,682,2
+ISIC_0003728_downsampled,-1,male,15,,NV,benign,0,16,1024,682,2
+ISIC_0003805_downsampled,-1,male,15,,NV,benign,0,18,1024,682,2
+ISIC_0004110_downsampled,-1,male,15,,NV,benign,0,10,1024,682,2
+ISIC_0004115_downsampled,-1,male,15,,NV,benign,0,20,1024,680,2
+ISIC_0004166_downsampled,-1,female,15,,NV,benign,0,18,1024,680,2
+ISIC_0004168_downsampled,-1,female,15,,NV,benign,0,28,1024,680,2
+ISIC_0004309_downsampled,-1,female,15,,NV,benign,0,4,1024,680,2
+ISIC_0004337_downsampled,-1,male,10,,NV,benign,0,14,1024,682,2
+ISIC_0004346_downsampled,-1,male,15,,NV,benign,0,12,1024,680,2
+ISIC_0004715_downsampled,-1,male,15,,NV,benign,0,10,1024,682,2
+ISIC_0004985_downsampled,-1,male,15,,NV,benign,0,10,1024,680,2
+ISIC_0005000_downsampled,-1,female,15,,NV,benign,0,2,1024,685,2
+ISIC_0005187_downsampled,-1,female,15,,NV,benign,0,0,1024,682,2
+ISIC_0005247_downsampled,-1,male,15,,NV,benign,0,10,1024,682,2
+ISIC_0005548_downsampled,-1,male,10,,NV,benign,0,10,1024,682,2
+ISIC_0005555_downsampled,-1,male,15,,NV,benign,0,22,1024,682,2
+ISIC_0005564_downsampled,-1,male,15,,NV,benign,0,2,1024,682,2
+ISIC_0005620_downsampled,-1,male,15,,NV,benign,0,8,1024,682,2
+ISIC_0005639_downsampled,-1,female,15,,NV,benign,0,2,1024,682,2
+ISIC_0005666_downsampled,-1,female,15,,NV,benign,0,20,1024,682,2
+ISIC_0005787_downsampled,-1,male,15,,NV,benign,0,20,1024,682,2
+ISIC_0006021_downsampled,-1,female,15,,NV,benign,0,18,1024,680,2
+ISIC_0006114_downsampled,-1,male,15,,NV,benign,0,8,1024,682,2
+ISIC_0006193_downsampled,-1,male,10,,NV,benign,0,16,1024,682,2
+ISIC_0006326_downsampled,-1,male,15,,NV,benign,0,6,1024,682,2
+ISIC_0006350_downsampled,-1,male,15,,NV,benign,0,18,1024,682,2
+ISIC_0006612_downsampled,-1,female,15,,NV,benign,0,22,1024,680,2
+ISIC_0006651_downsampled,-1,male,15,,NV,benign,0,24,1024,682,2
+ISIC_0006671_downsampled,-1,male,10,,NV,benign,0,8,1024,682,2
+ISIC_0006711_downsampled,-1,male,15,,NV,benign,0,14,1024,680,2
+ISIC_0006776_downsampled,-1,male,15,,NV,benign,0,2,1024,682,2
+ISIC_0006795_downsampled,-1,male,15,,NV,benign,0,6,1024,680,2
+ISIC_0006800_downsampled,-1,male,10,,NV,benign,0,4,1024,682,2
+ISIC_0006815_downsampled,-1,female,15,,NV,benign,0,14,1024,680,2
+ISIC_0006914_downsampled,-1,male,15,,NV,benign,0,6,1024,682,2
+ISIC_0006940_downsampled,-1,male,15,,NV,benign,0,16,1024,680,2
+ISIC_0006982_downsampled,-1,female,15,,NV,benign,0,22,1024,682,2
+ISIC_0007038_downsampled,-1,male,15,,NV,benign,0,24,1024,680,2
+ISIC_0007087_downsampled,-1,female,15,,NV,benign,0,28,1024,682,2
+ISIC_0007141_downsampled,-1,male,15,,NV,benign,0,22,1024,682,2
+ISIC_0007156_downsampled,-1,male,15,,NV,benign,0,0,1024,682,2
+ISIC_0007235_downsampled,-1,male,15,,NV,benign,0,18,1024,680,2
+ISIC_0007241_downsampled,-1,male,15,,NV,benign,0,4,1024,682,2
+ISIC_0007322_downsampled,-1,male,15,,NV,benign,0,18,1024,680,2
+ISIC_0007332_downsampled,-1,female,15,,NV,benign,0,26,1024,682,2
+ISIC_0007344_downsampled,-1,male,15,,NV,benign,0,26,1024,682,2
+ISIC_0007475_downsampled,-1,male,15,,NV,benign,0,22,1024,682,2
+ISIC_0007528_downsampled,-1,female,15,,NV,benign,0,14,1024,682,2
+ISIC_0007557_downsampled,-1,male,15,,NV,benign,0,16,1024,682,2
+ISIC_0007693_downsampled,-1,female,15,,NV,benign,0,8,1024,682,2
+ISIC_0007760_downsampled,-1,female,15,,NV,benign,0,14,1024,682,2
+ISIC_0007788_downsampled,-1,male,15,,NV,benign,0,10,1024,680,2
+ISIC_0007796_downsampled,-1,female,15,,NV,benign,0,14,1024,682,2
+ISIC_0008025_downsampled,-1,female,15,,NV,benign,0,0,1024,682,2
+ISIC_0008029_downsampled,-1,female,15,,NV,benign,0,18,1024,680,2
+ISIC_0008116_downsampled,-1,male,15,,NV,benign,0,22,1024,682,2
+ISIC_0008145_downsampled,-1,female,15,,NV,benign,0,4,1024,680,2
+ISIC_0008207_downsampled,-1,female,15,,NV,benign,0,2,1024,680,2
+ISIC_0008236_downsampled,-1,male,15,,NV,benign,0,28,1024,680,2
+ISIC_0008256_downsampled,-1,female,15,,NV,benign,0,14,1024,680,2
+ISIC_0008280_downsampled,-1,male,15,,NV,benign,0,2,1024,682,2
+ISIC_0008294_downsampled,-1,male,15,,NV,benign,0,10,1024,682,2
+ISIC_0008347_downsampled,-1,male,15,,NV,benign,0,0,1024,680,2
+ISIC_0008396_downsampled,-1,male,15,,NV,benign,0,24,1024,680,2
+ISIC_0008403_downsampled,-1,male,15,,NV,benign,0,18,1024,682,2
+ISIC_0008406_downsampled,-1,female,15,,NV,benign,0,18,1024,680,2
+ISIC_0008507_downsampled,-1,female,15,,NV,benign,0,10,1024,680,2
+ISIC_0008524_downsampled,-1,male,15,,NV,benign,0,2,1024,680,2
+ISIC_0008528_downsampled,-1,male,15,,NV,benign,0,26,1024,680,2
+ISIC_0008541_downsampled,-1,male,15,,NV,benign,0,22,1024,680,2
+ISIC_0008552_downsampled,-1,male,15,,NV,benign,0,10,1024,680,2
+ISIC_0008600_downsampled,-1,female,15,,NV,benign,0,10,1024,682,2
+ISIC_0008626_downsampled,-1,female,15,,NV,benign,0,14,1024,680,2
+ISIC_0008659_downsampled,-1,male,15,,NV,benign,0,26,1024,680,2
+ISIC_0008785_downsampled,-1,female,15,,NV,benign,0,24,1024,682,2
+ISIC_0008807_downsampled,-1,male,15,,NV,benign,0,12,1024,680,2
+ISIC_0008879_downsampled,-1,male,15,,NV,benign,0,14,1024,680,2
+ISIC_0008913_downsampled,-1,male,15,,NV,benign,0,26,1024,680,2
+ISIC_0008992_downsampled,-1,male,15,,NV,benign,0,26,1024,680,2
+ISIC_0008993_downsampled,-1,male,15,,NV,benign,0,0,1024,682,2
+ISIC_0008998_downsampled,-1,male,15,,NV,benign,0,20,1024,680,2
+ISIC_0009035_downsampled,-1,male,15,,NV,benign,0,26,1024,680,2
+ISIC_0009078_downsampled,-1,male,15,,NV,benign,0,6,1024,682,2
+ISIC_0009083_downsampled,-1,male,15,,NV,benign,0,18,1024,680,2
+ISIC_0009160_downsampled,-1,male,15,,NV,benign,0,24,1024,682,2
+ISIC_0009165_downsampled,-1,female,15,,NV,benign,0,16,1024,680,2
+ISIC_0009188_downsampled,-1,male,15,,NV,benign,0,28,1024,680,2
+ISIC_0009201_downsampled,-1,male,15,,NV,benign,0,20,1024,680,2
+ISIC_0009252_downsampled,-1,female,15,,NV,benign,0,22,1024,682,2
+ISIC_0009297_downsampled,-1,female,15,,NV,benign,0,26,1024,680,2
+ISIC_0009298_downsampled,-1,male,15,,NV,benign,0,16,1024,680,2
+ISIC_0009344_downsampled,-1,male,15,,NV,benign,0,8,1024,680,2
+ISIC_0009430_downsampled,-1,female,15,,NV,benign,0,16,1024,682,2
+ISIC_0009504_downsampled,-1,female,15,,NV,benign,0,10,1024,680,2
+ISIC_0009505_downsampled,-1,male,15,,NV,benign,0,22,1024,680,2
+ISIC_0009533_downsampled,-1,male,15,,NV,benign,0,12,1024,680,2
+ISIC_0009564_downsampled,-1,female,15,,NV,benign,0,2,1024,680,2
+ISIC_0009583_downsampled,-1,male,15,,NV,benign,0,4,1024,680,2
+ISIC_0009599_downsampled,-1,male,15,,NV,benign,0,6,1024,680,2
+ISIC_0009758_downsampled,-1,male,15,,NV,benign,0,20,1024,682,2
+ISIC_0009800_downsampled,-1,female,15,,NV,benign,0,8,1024,680,2
+ISIC_0009860_downsampled,-1,female,15,,NV,benign,0,22,1024,680,2
+ISIC_0009868,-1,female,70,posterior torso,MEL,malignant,1,2,1024,768,2
+ISIC_0009869,-1,female,40,posterior torso,NV,benign,0,12,1024,768,2
+ISIC_0009870,-1,female,40,upper extremity,NV,benign,0,22,1024,768,2
+ISIC_0009871,-1,male,45,posterior torso,NV,benign,0,2,1024,768,2
+ISIC_0009872,-1,female,50,head/neck,NV,benign,0,12,1024,768,2
+ISIC_0009873,-1,female,40,posterior torso,NV,benign,0,12,1024,768,2
+ISIC_0009874,-1,male,45,anterior torso,NV,benign,0,12,1024,768,2
+ISIC_0009875,-1,female,30,posterior torso,NV,benign,0,22,1024,768,2
+ISIC_0009877,-1,female,25,lower extremity,NV,benign,0,0,1024,768,2
+ISIC_0009879,-1,female,25,anterior torso,NV,benign,0,26,1024,768,2
+ISIC_0009880,-1,female,50,lower extremity,NV,benign,0,18,1024,768,2
+ISIC_0009881,-1,female,55,anterior torso,NV,benign,0,22,1024,768,2
+ISIC_0009882,-1,female,60,upper extremity,MEL,malignant,1,22,1024,768,2
+ISIC_0009883,-1,female,60,posterior torso,NV,benign,0,26,1024,768,2
+ISIC_0009884,-1,female,60,upper extremity,NV,benign,0,18,1024,768,2
+ISIC_0009885,-1,male,60,lower extremity,NV,benign,0,6,1024,768,2
+ISIC_0009888,-1,female,25,anterior torso,NV,benign,0,6,1024,768,2
+ISIC_0009889,-1,female,25,lower extremity,NV,benign,0,2,1024,768,2
+ISIC_0009891,-1,female,35,posterior torso,NV,benign,0,28,1024,768,2
+ISIC_0009895,-1,male,30,posterior torso,NV,benign,0,18,1024,768,2
+ISIC_0009896,-1,male,30,anterior torso,NV,benign,0,14,1024,768,2
+ISIC_0009897,-1,female,55,anterior torso,MEL,malignant,1,12,1024,768,2
+ISIC_0009898,-1,male,85,upper extremity,MEL,malignant,1,14,1024,768,2
+ISIC_0009899,-1,female,35,anterior torso,NV,benign,0,18,1024,768,2
+ISIC_0009901,-1,female,45,posterior torso,NV,benign,0,6,1024,768,2
+ISIC_0009902,-1,female,45,posterior torso,NV,benign,0,2,1024,768,2
+ISIC_0009904,-1,male,15,posterior torso,NV,benign,0,28,1024,768,2
+ISIC_0009905,-1,male,20,upper extremity,MEL,malignant,1,14,1024,768,2
+ISIC_0009906,-1,female,55,anterior torso,NV,benign,0,8,1024,768,2
+ISIC_0009909,-1,female,15,lower extremity,NV,benign,0,24,1024,768,2
+ISIC_0009910,-1,female,55,upper extremity,MEL,malignant,1,6,1024,768,2
+ISIC_0009911,-1,female,55,upper extremity,NV,benign,0,18,1024,768,2
+ISIC_0009912,-1,female,20,lower extremity,NV,benign,0,24,1024,768,2
+ISIC_0009914,-1,female,55,posterior torso,NV,benign,0,24,1024,768,2
+ISIC_0009915,-1,male,45,head/neck,NV,benign,0,16,1024,768,2
+ISIC_0009917,-1,female,25,upper extremity,NV,benign,0,28,1024,768,2
+ISIC_0009918,-1,male,80,upper extremity,MEL,malignant,1,14,1024,768,2
+ISIC_0009919,-1,female,50,lower extremity,NV,benign,0,20,1024,768,2
+ISIC_0009920,-1,male,20,lower extremity,NV,benign,0,12,1024,768,2
+ISIC_0009921,-1,male,25,anterior torso,NV,benign,0,12,1024,768,2
+ISIC_0009923,-1,female,30,anterior torso,NV,benign,0,28,1024,768,2
+ISIC_0009925,-1,female,30,lower extremity,NV,benign,0,20,1024,768,2
+ISIC_0009927,-1,female,40,head/neck,MEL,malignant,1,28,1024,768,2
+ISIC_0009928,-1,female,25,upper extremity,NV,benign,0,26,1024,768,2
+ISIC_0009929,-1,female,15,anterior torso,NV,benign,0,28,1024,768,2
+ISIC_0009930,-1,female,15,anterior torso,NV,benign,0,20,1024,768,2
+ISIC_0009931,-1,female,30,posterior torso,NV,benign,0,0,1024,768,2
+ISIC_0009932,-1,female,30,posterior torso,NV,benign,0,0,1024,768,2
+ISIC_0009933,-1,female,35,posterior torso,NV,benign,0,26,1024,768,2
+ISIC_0009934,-1,female,85,head/neck,MEL,malignant,1,10,1024,768,2
+ISIC_0009935,-1,male,35,posterior torso,NV,benign,0,6,1024,768,2
+ISIC_0009936,-1,female,30,posterior torso,NV,benign,0,14,1024,768,2
+ISIC_0009937,-1,female,45,lower extremity,NV,benign,0,4,1024,768,2
+ISIC_0009938,-1,male,35,posterior torso,NV,benign,0,24,1024,768,2
+ISIC_0009939,-1,male,35,posterior torso,NV,benign,0,20,1024,768,2
+ISIC_0009940,-1,male,35,anterior torso,NV,benign,0,2,1024,768,2
+ISIC_0009941,-1,female,40,lower extremity,NV,benign,0,20,1024,768,2
+ISIC_0009942,-1,male,25,anterior torso,NV,benign,0,24,1024,768,2
+ISIC_0009943,-1,male,35,posterior torso,NV,benign,0,28,1024,768,2
+ISIC_0009944,-1,male,20,anterior torso,NV,benign,0,26,1024,768,2
+ISIC_0009945,-1,male,20,posterior torso,NV,benign,0,28,1024,768,2
+ISIC_0009946,-1,male,40,posterior torso,NV,benign,0,26,1024,768,2
+ISIC_0009947,-1,female,25,lower extremity,NV,benign,0,18,1024,768,2
+ISIC_0009948,-1,male,40,posterior torso,NV,benign,0,28,1024,768,2
+ISIC_0009949,-1,male,50,anterior torso,NV,benign,0,10,1024,768,2
+ISIC_0009950,-1,male,35,anterior torso,MEL,malignant,1,6,1024,768,2
+ISIC_0009951,-1,male,55,lower extremity,NV,benign,0,24,1024,768,2
+ISIC_0009953,-1,male,60,anterior torso,NV,benign,0,8,1024,768,2
+ISIC_0009954,-1,female,45,upper extremity,NV,benign,0,24,1024,768,2
+ISIC_0009955,-1,female,70,lower extremity,MEL,malignant,1,0,1024,768,2
+ISIC_0009956,-1,male,20,anterior torso,NV,benign,0,24,1024,768,2
+ISIC_0009958,-1,male,55,upper extremity,NV,benign,0,28,1024,768,2
+ISIC_0009960,-1,female,50,lower extremity,MEL,malignant,1,8,1024,768,2
+ISIC_0009961,-1,female,65,lower extremity,NV,benign,0,4,1024,768,2
+ISIC_0009962,-1,male,55,posterior torso,NV,benign,0,16,1024,768,2
+ISIC_0009963,-1,female,45,lower extremity,NV,benign,0,2,1024,768,2
+ISIC_0009964,-1,female,45,upper extremity,NV,benign,0,0,1024,768,2
+ISIC_0009965,-1,male,80,posterior torso,NV,benign,0,22,1024,768,2
+ISIC_0009966,-1,male,20,posterior torso,NV,benign,0,16,1024,768,2
+ISIC_0009967,-1,female,15,lower extremity,NV,benign,0,14,1024,768,2
+ISIC_0009968,-1,female,60,upper extremity,NV,benign,0,4,1024,768,2
+ISIC_0009969,-1,male,50,posterior torso,NV,benign,0,4,1024,768,2
+ISIC_0009970,-1,male,50,posterior torso,NV,benign,0,0,1024,768,2
+ISIC_0009971,-1,female,70,lower extremity,MEL,malignant,1,12,1024,768,2
+ISIC_0009972,-1,female,50,posterior torso,NV,benign,0,28,1024,768,2
+ISIC_0009973,-1,male,45,upper extremity,NV,benign,0,2,1024,768,2
+ISIC_0009974,-1,male,45,posterior torso,NV,benign,0,16,1024,768,2
+ISIC_0009975,-1,male,80,anterior torso,NV,benign,0,8,1024,768,2
+ISIC_0009976,-1,female,45,upper extremity,NV,benign,0,0,1024,768,2
+ISIC_0009977,-1,male,65,posterior torso,NV,benign,0,16,1024,768,2
+ISIC_0009978,-1,male,65,posterior torso,NV,benign,0,0,1024,768,2
+ISIC_0009979,-1,female,40,lower extremity,NV,benign,0,10,1024,768,2
+ISIC_0009980,-1,female,10,head/neck,NV,benign,0,22,1024,768,2
+ISIC_0009981,-1,female,40,lower extremity,NV,benign,0,26,1024,768,2
+ISIC_0009982,-1,female,40,posterior torso,NV,benign,0,16,1024,768,2
+ISIC_0009987,-1,female,25,posterior torso,NV,benign,0,20,1024,768,2
+ISIC_0009988,-1,female,15,anterior torso,NV,benign,0,28,1024,768,2
+ISIC_0009990,-1,male,30,posterior torso,NV,benign,0,28,1024,768,2
+ISIC_0009991,-1,male,45,posterior torso,NV,benign,0,14,1024,768,2
+ISIC_0009992,-1,male,70,anterior torso,MEL,malignant,1,20,1024,768,2
+ISIC_0009993,-1,female,85,head/neck,MEL,malignant,1,14,1024,768,2
+ISIC_0009994,-1,male,60,anterior torso,NV,benign,0,2,1024,768,2
+ISIC_0009995,-1,female,60,lower extremity,NV,benign,0,24,1024,768,2
+ISIC_0009998,-1,male,70,posterior torso,NV,benign,0,8,1024,768,2
+ISIC_0010000,-1,female,60,lower extremity,MEL,malignant,1,2,1024,768,2
+ISIC_0010002,-1,male,25,posterior torso,NV,benign,0,24,1024,768,2
+ISIC_0010003,-1,male,25,posterior torso,NV,benign,0,20,1024,768,2
+ISIC_0010005,-1,male,75,posterior torso,NV,benign,0,6,1024,768,2
+ISIC_0010006,-1,male,45,posterior torso,NV,benign,0,10,1024,768,2
+ISIC_0010009,-1,female,20,lower extremity,NV,benign,0,12,1024,768,2
+ISIC_0010010,-1,female,20,lower extremity,NV,benign,0,14,1024,768,2
+ISIC_0010011,-1,male,60,upper extremity,MEL,malignant,1,18,1024,768,2
+ISIC_0010013,-1,male,50,lower extremity,NV,benign,0,14,1024,768,2
+ISIC_0010014,-1,male,50,anterior torso,NV,benign,0,10,1024,768,2
+ISIC_0010015,-1,female,45,anterior torso,NV,benign,0,10,1024,768,2
+ISIC_0010016,-1,male,65,posterior torso,MEL,malignant,1,14,1024,768,2
+ISIC_0010017,-1,male,45,posterior torso,NV,benign,0,24,1024,768,2
+ISIC_0010018,-1,male,45,posterior torso,NV,benign,0,12,1024,768,2
+ISIC_0010019,-1,female,70,posterior torso,NV,benign,0,16,1024,768,2
+ISIC_0010020,-1,male,80,anterior torso,NV,benign,0,28,1024,768,2
+ISIC_0010021,-1,male,35,posterior torso,NV,benign,0,28,1024,768,2
+ISIC_0010022,-1,female,60,posterior torso,NV,benign,0,6,1024,768,2
+ISIC_0010023,-1,male,80,upper extremity,MEL,malignant,1,18,1024,768,2
+ISIC_0010024,-1,male,50,upper extremity,MEL,malignant,1,14,1024,768,2
+ISIC_0010025,-1,male,50,lower extremity,NV,benign,0,10,1024,768,2
+ISIC_0010028,-1,female,65,lower extremity,NV,benign,0,6,1024,768,2
+ISIC_0010029,-1,female,65,head/neck,MEL,malignant,1,28,1024,768,2
+ISIC_0010032,-1,male,70,anterior torso,NV,benign,0,12,1024,768,2
+ISIC_0010034,-1,female,50,upper extremity,MEL,malignant,1,14,1024,768,2
+ISIC_0010036,-1,male,75,head/neck,MEL,malignant,1,6,1024,768,2
+ISIC_0010037,-1,female,45,lower extremity,NV,benign,0,2,1024,768,2
+ISIC_0010038,-1,female,50,anterior torso,NV,benign,0,26,1024,768,2
+ISIC_0010040,-1,male,45,anterior torso,NV,benign,0,22,1024,768,2
+ISIC_0010041,-1,male,45,posterior torso,NV,benign,0,0,1024,768,2
+ISIC_0010042,-1,male,50,upper extremity,NV,benign,0,26,1024,768,2
+ISIC_0010043,-1,male,50,anterior torso,NV,benign,0,0,1024,768,2
+ISIC_0010044,-1,female,15,head/neck,NV,benign,0,0,1024,768,2
+ISIC_0010046,-1,female,55,posterior torso,NV,benign,0,26,1024,768,2
+ISIC_0010047,-1,male,75,anterior torso,NV,benign,0,12,1024,768,2
+ISIC_0010051,-1,female,40,upper extremity,NV,benign,0,16,1024,768,2
+ISIC_0010053,-1,female,65,lower extremity,NV,benign,0,8,1024,768,2
+ISIC_0010054,-1,female,70,upper extremity,MEL,malignant,1,0,1024,768,2
+ISIC_0010055,-1,female,65,lower extremity,NV,benign,0,8,1024,768,2
+ISIC_0010056,-1,male,60,posterior torso,MEL,malignant,1,4,1024,768,2
+ISIC_0010057,-1,female,55,posterior torso,NV,benign,0,28,1024,768,2
+ISIC_0010058,-1,female,55,anterior torso,NV,benign,0,6,1024,768,2
+ISIC_0010059,-1,female,30,posterior torso,NV,benign,0,14,1024,768,2
+ISIC_0010060,-1,female,30,upper extremity,NV,benign,0,26,1024,768,2
+ISIC_0010061,-1,female,40,posterior torso,NV,benign,0,18,1024,768,2
+ISIC_0010062,-1,female,35,lower extremity,NV,benign,0,2,1024,768,2
+ISIC_0010063,-1,female,25,posterior torso,NV,benign,0,20,1024,768,2
+ISIC_0010064,-1,male,20,lower extremity,NV,benign,0,12,1024,768,2
+ISIC_0010066,-1,male,35,posterior torso,NV,benign,0,10,1024,768,2
+ISIC_0010067,-1,male,75,head/neck,MEL,malignant,1,18,1024,768,2
+ISIC_0010069,-1,female,65,anterior torso,NV,benign,0,20,1024,768,2
+ISIC_0010070,-1,male,10,lower extremity,NV,benign,0,10,1024,768,2
+ISIC_0010071,-1,female,25,anterior torso,NV,benign,0,18,1024,768,2
+ISIC_0010073,-1,male,35,anterior torso,NV,benign,0,14,1024,768,2
+ISIC_0010074,-1,female,20,posterior torso,NV,benign,0,14,1024,768,2
+ISIC_0010075,-1,female,40,anterior torso,NV,benign,0,12,1024,768,2
+ISIC_0010077,-1,male,25,upper extremity,NV,benign,0,12,1024,768,2
+ISIC_0010078,-1,male,25,head/neck,NV,benign,0,10,1024,768,2
+ISIC_0010079,-1,female,60,anterior torso,NV,benign,0,12,1024,768,2
+ISIC_0010080,-1,female,45,posterior torso,MEL,malignant,1,26,1024,768,2
+ISIC_0010081,-1,male,60,head/neck,MEL,malignant,1,4,1024,768,2
+ISIC_0010086,-1,female,30,posterior torso,NV,benign,0,20,1024,768,2
+ISIC_0010087,-1,female,30,lower extremity,NV,benign,0,12,1024,768,2
+ISIC_0010088,-1,female,45,lower extremity,NV,benign,0,26,1024,768,2
+ISIC_0010089,-1,female,45,anterior torso,MEL,malignant,1,14,1024,768,2
+ISIC_0010090,-1,female,45,lower extremity,NV,benign,0,8,1024,768,2
+ISIC_0010092,-1,male,25,posterior torso,NV,benign,0,20,1024,768,2
+ISIC_0010093,-1,female,50,anterior torso,NV,benign,0,0,1024,768,2
+ISIC_0010094,-1,female,10,anterior torso,MEL,malignant,1,16,1024,768,2
+ISIC_0010100,-1,female,50,lower extremity,NV,benign,0,20,1024,768,2
+ISIC_0010102,-1,male,50,head/neck,NV,benign,0,26,1024,768,2
+ISIC_0010104,-1,male,35,posterior torso,NV,benign,0,2,1024,768,2
+ISIC_0010105,-1,female,40,upper extremity,NV,benign,0,18,1024,768,2
+ISIC_0010168,-1,female,65,posterior torso,NV,benign,0,24,1024,768,2
+ISIC_0010169,-1,male,15,lower extremity,NV,benign,0,20,1024,768,2
+ISIC_0010170,-1,male,50,posterior torso,NV,benign,0,4,1024,768,2
+ISIC_0010171,-1,male,70,lower extremity,MEL,malignant,1,0,1024,768,2
+ISIC_0010173,-1,male,25,lower extremity,NV,benign,0,12,1024,768,2
+ISIC_0010174,-1,male,65,upper extremity,MEL,malignant,1,8,1024,768,2
+ISIC_0010175,-1,male,50,anterior torso,MEL,malignant,1,0,1024,768,2
+ISIC_0010176,-1,male,20,upper extremity,NV,benign,0,4,1024,768,2
+ISIC_0010177,-1,female,40,lower extremity,NV,benign,0,6,1024,768,2
+ISIC_0010178,-1,male,60,posterior torso,NV,benign,0,18,1024,768,2
+ISIC_0010180,-1,female,45,lower extremity,NV,benign,0,18,1024,768,2
+ISIC_0010182,-1,female,40,lower extremity,NV,benign,0,12,1024,768,2
+ISIC_0010183,-1,male,60,lower extremity,NV,benign,0,24,1024,768,2
+ISIC_0010184,-1,female,45,posterior torso,NV,benign,0,0,1024,768,2
+ISIC_0010185,-1,male,55,anterior torso,NV,benign,0,12,1024,768,2
+ISIC_0010186,-1,female,55,lower extremity,NV,benign,0,4,1024,768,2
+ISIC_0010187,-1,female,30,lower extremity,NV,benign,0,14,1024,768,2
+ISIC_0010189,-1,male,50,upper extremity,MEL,malignant,1,14,1024,768,2
+ISIC_0010190,-1,male,45,posterior torso,NV,benign,0,8,1024,768,2
+ISIC_0010191,-1,male,75,posterior torso,NV,benign,0,22,1024,768,2
+ISIC_0010192,-1,male,60,lower extremity,NV,benign,0,26,1024,768,2
+ISIC_0010193,-1,female,85,head/neck,NV,benign,0,8,1024,768,2
+ISIC_0010194,-1,male,75,posterior torso,MEL,malignant,1,18,1024,768,2
+ISIC_0010201,-1,male,35,anterior torso,NV,benign,0,22,1024,768,2
+ISIC_0010202,-1,male,35,posterior torso,NV,benign,0,0,1024,768,2
+ISIC_0010204,-1,female,45,posterior torso,NV,benign,0,4,1024,768,2
+ISIC_0010205,-1,male,15,lower extremity,NV,benign,0,20,1024,768,2
+ISIC_0010206,-1,male,15,anterior torso,NV,benign,0,20,1024,768,2
+ISIC_0010207,-1,male,70,head/neck,MEL,malignant,1,6,1024,768,2
+ISIC_0010212,-1,male,50,head/neck,NV,benign,0,10,1024,768,2
+ISIC_0010213,-1,male,50,posterior torso,NV,benign,0,0,1024,768,2
+ISIC_0010215,-1,female,80,posterior torso,NV,benign,0,10,1024,768,2
+ISIC_0010216,-1,male,40,lower extremity,NV,benign,0,8,1024,768,2
+ISIC_0010219,-1,female,30,posterior torso,NV,benign,0,18,1024,768,2
+ISIC_0010220,-1,female,25,posterior torso,NV,benign,0,10,1024,768,2
+ISIC_0010222,-1,male,50,anterior torso,NV,benign,0,0,1024,768,2
+ISIC_0010225,-1,female,30,lower extremity,MEL,malignant,1,24,1024,768,2
+ISIC_0010226,-1,female,55,posterior torso,NV,benign,0,6,1024,768,2
+ISIC_0010227,-1,female,45,posterior torso,NV,benign,0,26,1024,768,2
+ISIC_0010228,-1,male,45,lower extremity,NV,benign,0,28,1024,768,2
+ISIC_0010229,-1,female,45,anterior torso,NV,benign,0,18,1024,768,2
+ISIC_0010231,-1,female,85,posterior torso,MEL,malignant,1,2,1024,768,2
+ISIC_0010232,-1,male,60,posterior torso,NV,benign,0,6,1024,768,2
+ISIC_0010233,-1,female,30,anterior torso,NV,benign,0,10,1024,768,2
+ISIC_0010234,-1,male,55,anterior torso,NV,benign,0,16,1024,768,2
+ISIC_0010235,-1,male,60,upper extremity,MEL,malignant,1,28,1024,768,2
+ISIC_0010236,-1,female,45,posterior torso,NV,benign,0,10,1024,768,2
+ISIC_0010237,-1,female,45,posterior torso,NV,benign,0,10,1024,768,2
+ISIC_0010238,-1,male,5,head/neck,NV,benign,0,2,1024,768,2
+ISIC_0010239,-1,male,75,upper extremity,NV,benign,0,28,1024,768,2
+ISIC_0010240,-1,female,70,anterior torso,MEL,malignant,1,28,1024,768,2
+ISIC_0010241,-1,male,70,lower extremity,MEL,malignant,1,28,1024,768,2
+ISIC_0010244,-1,female,50,anterior torso,NV,benign,0,0,1024,768,2
+ISIC_0010246,-1,male,45,posterior torso,NV,benign,0,20,1024,768,2
+ISIC_0010247,-1,female,85,lower extremity,NV,benign,0,18,1024,768,2
+ISIC_0010248,-1,female,35,upper extremity,NV,benign,0,24,1024,768,2
+ISIC_0010249,-1,male,40,posterior torso,NV,benign,0,28,1024,768,2
+ISIC_0010251,-1,female,60,anterior torso,MEL,malignant,1,6,1024,768,2
+ISIC_0010252,-1,female,65,head/neck,NV,benign,0,28,1024,768,2
+ISIC_0010254,-1,female,30,lower extremity,NV,benign,0,6,1024,768,2
+ISIC_0010255,-1,female,30,lower extremity,NV,benign,0,0,1024,768,2
+ISIC_0010256,-1,female,30,anterior torso,NV,benign,0,12,1024,768,2
+ISIC_0010257,-1,female,20,posterior torso,NV,benign,0,26,1024,768,2
+ISIC_0010261,-1,female,60,posterior torso,NV,benign,0,22,1024,768,2
+ISIC_0010262,-1,female,20,anterior torso,NV,benign,0,6,1024,768,2
+ISIC_0010263,-1,female,75,lower extremity,NV,benign,0,10,1024,768,2
+ISIC_0010264,-1,female,60,anterior torso,NV,benign,0,26,1024,768,2
+ISIC_0010265,-1,female,65,posterior torso,MEL,malignant,1,2,1024,768,2
+ISIC_0010267,-1,female,65,posterior torso,MEL,malignant,1,4,1024,768,2
+ISIC_0010317,-1,female,25,anterior torso,NV,benign,0,10,1024,768,2
+ISIC_0010318,-1,male,70,upper extremity,NV,benign,0,4,1024,768,2
+ISIC_0010319,-1,female,65,head/neck,MEL,malignant,1,26,1024,768,2
+ISIC_0010320,-1,male,45,upper extremity,NV,benign,0,8,1024,768,2
+ISIC_0010321,-1,female,80,posterior torso,MEL,malignant,1,0,1024,768,2
+ISIC_0010322,-1,male,70,head/neck,MEL,malignant,1,22,1024,768,2
+ISIC_0010323,-1,male,65,head/neck,NV,benign,0,0,1024,768,2
+ISIC_0010326,-1,female,50,anterior torso,NV,benign,0,22,1024,768,2
+ISIC_0010327,-1,female,55,lower extremity,NV,benign,0,14,1024,768,2
+ISIC_0010329,-1,male,60,upper extremity,MEL,malignant,1,20,1024,768,2
+ISIC_0010330,-1,male,60,posterior torso,NV,benign,0,28,1024,768,2
+ISIC_0010332,-1,male,65,head/neck,NV,benign,0,10,1024,768,2
+ISIC_0010333,-1,male,70,posterior torso,NV,benign,0,8,1024,768,2
+ISIC_0010334,-1,male,65,anterior torso,NV,benign,0,12,1024,768,2
+ISIC_0010335,-1,male,65,lower extremity,NV,benign,0,2,1024,768,2
+ISIC_0010336,-1,female,45,head/neck,NV,benign,0,16,1024,768,2
+ISIC_0010337,-1,female,45,upper extremity,NV,benign,0,0,1024,768,2
+ISIC_0010339,-1,female,45,upper extremity,NV,benign,0,14,1024,768,2
+ISIC_0010340,-1,male,40,anterior torso,NV,benign,0,24,1024,768,2
+ISIC_0010341,-1,male,40,anterior torso,NV,benign,0,4,1024,768,2
+ISIC_0010342,-1,male,40,anterior torso,NV,benign,0,14,1024,768,2
+ISIC_0010344,-1,female,50,upper extremity,NV,benign,0,12,1024,768,2
+ISIC_0010346,-1,male,30,anterior torso,NV,benign,0,26,1024,768,2
+ISIC_0010347,-1,male,30,anterior torso,NV,benign,0,10,1024,768,2
+ISIC_0010348,-1,male,30,posterior torso,NV,benign,0,2,1024,768,2
+ISIC_0010349,-1,male,75,upper extremity,MEL,malignant,1,0,1024,768,2
+ISIC_0010350,-1,female,25,anterior torso,MEL,malignant,1,18,1024,768,2
+ISIC_0010351,-1,female,25,head/neck,NV,benign,0,18,1024,768,2
+ISIC_0010356,-1,male,35,lower extremity,NV,benign,0,24,1024,768,2
+ISIC_0010357,-1,male,40,posterior torso,NV,benign,0,26,1024,768,2
+ISIC_0010358,-1,male,40,posterior torso,MEL,malignant,1,26,1024,768,2
+ISIC_0010360,-1,male,40,posterior torso,MEL,malignant,1,14,1024,768,2
+ISIC_0010361,-1,male,40,head/neck,NV,benign,0,0,1024,768,2
+ISIC_0010362,-1,male,25,posterior torso,NV,benign,0,4,1024,768,2
+ISIC_0010364,-1,male,40,posterior torso,MEL,malignant,1,24,1024,768,2
+ISIC_0010365,-1,female,65,posterior torso,NV,benign,0,14,1024,768,2
+ISIC_0010367,-1,female,60,lower extremity,NV,benign,0,24,1024,768,2
+ISIC_0010368,-1,male,70,posterior torso,NV,benign,0,4,1024,768,2
+ISIC_0010370,-1,female,65,head/neck,NV,benign,0,6,1024,768,2
+ISIC_0010371,-1,male,70,head/neck,NV,benign,0,6,1024,768,2
+ISIC_0010372,-1,male,85,lower extremity,MEL,malignant,1,2,1024,768,2
+ISIC_0010374,-1,male,40,posterior torso,NV,benign,0,18,1024,768,2
+ISIC_0010379,-1,male,80,head/neck,MEL,malignant,1,14,1024,768,2
+ISIC_0010380,-1,female,75,head/neck,MEL,malignant,1,12,1024,768,2
+ISIC_0010382,-1,female,50,posterior torso,NV,benign,0,16,1024,768,2
+ISIC_0010435,-1,female,70,head/neck,NV,benign,0,8,1024,768,2
+ISIC_0010439,-1,female,30,upper extremity,NV,benign,0,24,1024,768,2
+ISIC_0010440,-1,male,50,upper extremity,NV,benign,0,14,1024,768,2
+ISIC_0010441,-1,male,65,head/neck,MEL,malignant,1,26,1024,768,2
+ISIC_0010442,-1,female,35,head/neck,NV,benign,0,24,1024,768,2
+ISIC_0010443,-1,female,55,anterior torso,NV,benign,0,8,1024,768,2
+ISIC_0010444,-1,female,30,lower extremity,NV,benign,0,22,1024,768,2
+ISIC_0010445,-1,female,5,upper extremity,NV,benign,0,28,1024,768,2
+ISIC_0010447,-1,female,30,posterior torso,NV,benign,0,2,1024,768,2
+ISIC_0010448,-1,female,30,anterior torso,NV,benign,0,26,1024,768,2
+ISIC_0010449,-1,female,30,anterior torso,NV,benign,0,28,1024,768,2
+ISIC_0010452,-1,male,10,head/neck,NV,benign,0,4,1024,768,2
+ISIC_0010455,-1,female,55,posterior torso,NV,benign,0,18,1024,768,2
+ISIC_0010456,-1,female,55,lower extremity,NV,benign,0,28,1024,768,2
+ISIC_0010457,-1,female,35,head/neck,NV,benign,0,4,1024,768,2
+ISIC_0010458,-1,female,35,head/neck,NV,benign,0,24,1024,768,2
+ISIC_0010459,-1,female,35,upper extremity,NV,benign,0,22,1024,768,2
+ISIC_0010460,-1,female,35,head/neck,NV,benign,0,8,1024,768,2
+ISIC_0010461,-1,female,30,head/neck,NV,benign,0,14,1024,768,2
+ISIC_0010462,-1,male,60,posterior torso,NV,benign,0,10,1024,768,2
+ISIC_0010463,-1,male,30,anterior torso,NV,benign,0,6,1024,768,2
+ISIC_0010465,-1,male,35,lower extremity,NV,benign,0,2,1024,768,2
+ISIC_0010466,-1,male,80,lower extremity,MEL,malignant,1,28,1024,768,2
+ISIC_0010467,-1,male,80,upper extremity,NV,benign,0,20,1024,768,2
+ISIC_0010468,-1,female,45,anterior torso,MEL,malignant,1,0,1024,768,2
+ISIC_0010471,-1,female,30,anterior torso,NV,benign,0,26,1024,768,2
+ISIC_0010472,-1,female,30,anterior torso,NV,benign,0,6,1024,768,2
+ISIC_0010473,-1,female,30,head/neck,NV,benign,0,12,1024,768,2
+ISIC_0010474,-1,female,35,lower extremity,NV,benign,0,14,1024,768,2
