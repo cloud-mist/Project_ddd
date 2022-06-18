@@ -1,8 +1,8 @@
 # https://www.gitpod.io/docs/config-gitpod-file
 
 tasks:
-  - init: pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu && sudo apt-get install -y uuid-runtime
-  - command: ./ddd
+  - init: go get && pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu && sudo apt-get install -y uuid-runtime
+  - command: go run main.go
 
 ports:
   - port: 8080
