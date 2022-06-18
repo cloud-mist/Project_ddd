@@ -32,11 +32,12 @@ type User struct {
 var (
 	user       User
 	filesuffix string
-	mlPath     = "./ML/m2_dhr/predict3.py"
+	mlPath     = "./ML/m1_lwj/predict.py"
 )
 
 // 初始化时区
 func init() {
+	gin.SetMode(gin.ReleaseMode)
 	loc, _ := time.LoadLocation("Asia/Shanghai")
 	time.Local = loc
 }
@@ -53,7 +54,6 @@ func main() {
 
 	// ------------------------静态文件----------------------------------
 	r := gin.Default()
-	//	gin.SetMode(gin.ReleaseMode)
 
 	r.Static("/static", "./statics")
 	r.Static("/css", "./statics/css")
@@ -180,7 +180,7 @@ func insertUser(agee int, dst string, id string, userName string, pos string, ge
 	dst = "../../" + dst
 
 	go func() {
-		cmd := exec.Command("python", mlPath, dst, gender, strconv.Itoa(agee), pos)
+		cmd := exec.Command("python", mlPath, dst)
 		out, err := cmd.CombinedOutput()
 		ch <- output{out, err}
 	}()
